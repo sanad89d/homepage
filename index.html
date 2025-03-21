@@ -1,292 +1,269 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="A">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HomePage</title>
-    <link rel="shortcut icon" href="https://img.icons8.com/cotton/512/000000/shutdown--v1.png" />
-    <script src="https://kit.fontawesome.com/4726f56333.js" crossorigin="anonymous"></script>
-    <style>
-        /* General Button Styles */
-        .btn {
-            border: none;
-            background-color: inherit;
-            padding: 14px 28px;
-            font-size: 20px;
-            cursor: pointer;
-            display: inline-block;
-        }
+<html>
+	<head>
+		<title>HomePage</title>
+		<meta name=Author content="A">
+		<link rel="shortcut icon" href="https://img.icons8.com/cotton/512/000000/shutdown--v1.png"/>
+		<script src="https://kit.fontawesome.com/4726f56333.js" crossorigin="anonymous"></script>
+			<style>
+				.btn {
+  				border: none;
+  				background-color: inherit;
+  				padding: 14px 28px;
+  				font-size: 20px;
+  				cursor: pointer;
+  				display: inline-block;
+				}
 
-        /* Button Color Classes */
-        .brave { color: green; }
-        .brave:hover { background-color: #04AA6D; color: white; }
+				/* Green */
+				.brave {
+  				color: green;
+				}
 
-        .edge { color: blue; }
-        .edge:hover { background: #2196F3; color: white; }
+				.brave:hover {
+  				background-color: #04AA6D;
+  				color: white;
+				}
 
-        .ungoogled { color: orange; }
-        .ungoogled:hover { background: #ff9800; color: white; }
+				/* Blue */
+				.edge {
+  				color: blue;
+				}
 
-        .office { color: red; }
-        .office:hover { background: #f44336; color: white; }
+				.edge:hover {
+  				background: #2196F3;
+  				color: white;
+				}
 
-        .share { color: black; }
-        .share:hover { background: #d6d6d6; }
+				/* Orange */
+				.ungoogled {
+				color: orange;
+				}
 
-        .wallpaper { color: pink; }
-        .wallpaper:hover { background: #c27ba0; }
+				.ungoogled:hover {
+				background: #ff9800;
+  				color: white;
+				}
 
-        .links { color: cyan; }
-        .links:hover { background: #00FFFF; }
+				/* Red */
+				.office {
+  				color: red;
+				}
 
-        .soft { color: #B2B0EA; } /* Soft Blue */
-        .soft:hover { background: #B2B0EA; }
+				.office:hover {
+ 		 		background: #f44336;
+				color: white;
+				}
 
-        /* Center Alignment */
-        .center {
-            margin: auto;
-            border: 3px solid #FFC0CB;
-            padding: 10px;
-            text-align: center;
-        }
+				/* Gray */
+				.share {
+  				color: black;
+				}
 
-        /* Modern Marquee Alternative */
-        .marquee-container {
-            background-color: #FF00FF;
-            padding: 10px;
-            color: white;
-            font-size: 16pt;
-            text-align: center;
-            animation: marquee 10s linear infinite;
-        }
+				.share:hover {
+  				background: #d6d6d6;
+				}
 
-        @keyframes marquee {
-            0% { transform: translateX(100%); }
-            100% { transform: translateX(-100%); }
-        }
+				/* Pink */
+				.wallpaper {
+  				color: pink;
+				}
 
-        /* Flexbox for Navigation and Buttons */
-        .navigation-buttons {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 9px;
-        }
+				.wallpaper:hover {
+  				background: #c27ba0;
+				}
+				/* Cyan */
+				.links {
+  				color: cyan;
+				}
 
-        /* Style for navigation arrows */
-        .navigation a {
-            margin: 0 10px;
-            font-size: 20px;
-        }
+				.links:hover {
+  				background: #00FFFF;
+				}
+				/* Cyan */
+				.soft {
+  				color: Very Soft Blue;
+				}
 
-        /* Style for buttons */
-        .buttons {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+				.links:hover {
+  				background: #B2B0EA;
+				}
+				.center {
+ 			 	margin: auto;
+  				border: 3px solid #FFC0CB;
+  				padding: 10px;
+  				text-align: center;
+				}
+			</style>
+	</head>
+    
+	<body bgcolor=#dbdce2 lang=EN-US link=blue vlink=blue>
+		<div class="center">
+			<div style = "text-align:left; float:left;padding-top: 30px;">
+				<a style="font-weight:bold" href="bookmarks.html"><i class="fa-solid fa-circle-arrow-left fa-2xl"></i></a>
+			</div>
+		<div style = "text-align:right; float:right;padding-top: 30px;">
+			<a style="font-weight:bold" href="next.html"><i class="fa-solid fa-circle-arrow-right fa-2xl"></i></a>
+		</div>
+			<button class="btn brave"><a href="bookmarks.html">Brave</a></button>
+			<button class="btn edge"><a href="favorites.html">Edge</a></button>
+			<button class="btn ungoogled"><a href="ungoogled.html">Ungoogled</a></button>
+			<button class="btn office"><a href="OfficeRTool.zip">Office</a></button>
+			<button class="btn soft"><a href="Soft.w.rar">Soft.w</a></button>
+			<button class="btn share"><a href="Share.zip">Share</a></button>
+			<button class="btn wallpaper"><a href="Wall.p.zip">Wall.p</a></button>
+			<button class="btn links"><a href="https://ad-anish.github.io/Portfolio/#Links">Links</a></button>
+		</div>
 
-        .buttons button {
-            margin: 0 5px;
-        }
+			<p align=center style='text-align:center'><marquee bgcolor="#FF00FF" border=0 style="font-size: 16pt">Information is eternal, computers are ephemeral, backup is the savior.</marquee></p>
 
-        /* Table Styles */
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 15x;
-        }
-
-        table td, table th {
-            padding: 9px;
-            text-align: center;
-            border: 3px solid #cc81d3; /* Adding borders to table cells */
-            font-size: 18.0pt;
-        }
-
-        table th {
-            background-color: #93e5e1; /* Light background for headers */
-        }
-    </style>
-</head>
-<body style="background-color: #dbdde2;" lang="EN-US">
-    <header class="center">
-        <div class="navigation-buttons">
-            <!-- Arrow links on the left and right of the buttons -->
-            <a href="bookmarks.html" aria-label="Go to bookmarks">
-                <i class="fa-solid fa-circle-arrow-left fa-2xl"></i>
-            </a>
-
-            <!-- Buttons next to arrows -->
-            <div class="buttons">
-                <button class="btn brave"><a href="bookmarks.html">Brave</a></button>
-                <button class="btn edge"><a href="favorites.html">Edge</a></button>
-                <button class="btn ungoogled"><a href="ungoogled.html">Ungoogled</a></button>
-                <button class="btn office"><a href="OfficeRTool.zip">Office</a></button>
-                <button class="btn soft"><a href="Soft.w.rar">Soft.w</a></button>
-                <button class="btn share"><a href="Share.zip">Share</a></button>
-                <button class="btn wallpaper"><a href="Wall.p.zip">Wall.p</a></button>
-                <button class="btn links"><a href="https://ad-anish.github.io/Portfolio/#Links" target="_blank" rel="noopener noreferrer">Links</a></button>
-            </div>
-
-            <a href="next.html" aria-label="Go to next page">
-                <i class="fa-solid fa-circle-arrow-right fa-2xl"></i>
-            </a>
-        </div>
-    </header>
-
-    <div class="marquee-container">
-        Information is eternal, computers are ephemeral, backup is the savior.
-    </div>
-
-    <table>
-        <tr>
-            <td><a href="http://www.gmail.com">Gmail</a></td>
-            <td><a href="https://outlook.live.com/owa/">Outlook</a></td>
-            <td><a href="https://mail.yahoo.com/">Yahoo Mail</a></td>
-            <td><a href="https://proton.me/mail">ProtonMail</a></td>
-        </tr>
-
-        <tr>
-            <td><a href="https://www.youtube.com/">Youtube</a></td>
-            <td><a href="https://odysee.com/">Odysee</a></td>
-            <td><a href="https://api.invidious.io/">Invidious</a></td>
-            <td><a href="https://youtube4kdownloader.com/en66/">YoutubeDownloader</a></td>
-        </tr>
+	<table border=1 cellpadding=0 width="100%" style='width:100.0%;border:outset 3.0pt;font-size:16.0pt'>
+		<tr width="25%" style='width:25%;background:#dbdce2;padding:.75pt .75pt .75pt .75pt'>
+			<td> <a href="http://www.gmail.com"> Gmail  </a> </td>
+			<td> <a href="https://outlook.live.com/owa/"> Outlook  </a> </td>
+			<td> <a href="https://mail.yahoo.com/"> Yahoomail </a>  </td>
+			<td> <a href="https://proton.me/mail"> ProtonMail  </a> </td>
+		</tr>
+		
+		<tr width="25%" style='width:25%;background:#dbdce2;padding:.75pt .75pt .75pt .75pt'>
+			<td> <a href="https://www.youtube.com/"> Youtube  </a> </td>
+			<td> <a href="https://odysee.com/"> Odysee  </a> </td>
+			<td> <a href="https://api.invidious.io/"> Invidious  </a> </td>
+			<td> <a href="https://youtube4kdownloader.com/en66/"> YoutubeDownloader  </a> </td>
+		</tr>
          
-		<tr>
+		<tr width="25%" style='width:25%;background:#dbdce2;padding:.75pt .75pt .75pt .75pt'>
 			<td> <a href="https://searx.space/"> Searx  </a> </td>
 			<td> <a href="https://search.brave.com/"> Brave </a> </td>
 			<td> <a href="https://duckduckgo.com/"> DuckDuckGo  </a> </td>
 			<td> <a href="https://www.startpage.com/"> StartPage  </a> </td>
 		</tr>
  
-		<tr>
+		<tr width="25%" style='width:25%;background:#dbdce2;padding:.75pt .75pt .75pt .75pt'>
 			<td> <a href="https://temp-mail.org/en/"> TempMail  </a> </td>
 			<td> <a href="https://temporarymail.com/en/"> TemporaryMail  </a> </td>
 			<td> <a href="https://getnada.com/"> DisposableEmail </a>  </td>
 			<td> <a href="https://generator.email/"> GenerateEmail  </a> </td>
 		</tr>
 
-		<tr>
+		<tr width="25%" style='width:25%;background:#dbdce2;padding:.75pt .75pt .75pt .75pt'>
 			<td> <a href="https://123apps.com/"> WebApps  </a> </td>
 			<td> <a href="https://www.online-convert.com/"> Online Convert  </a> </td>
 			<td> <a href="https://www.photopea.com/"> Photopea  </a> </td>
 			<td> <a href="https://pixlr.com/remove-background/"> RemoveBG  </a> </td> 
 		</tr>
 
-		<tr>
+		<tr width="25%" style='width:25%;background:#dbdce2;padding:.75pt .75pt .75pt .75pt'>
 			<td> <a href="https://www.dwservice.net/"> DWService  </a> </td>
 			<td> <a href="https://haveibeenpwned.com/"> have i been pwned?  </a> </td>
 			<td> <a href="https://www.speedtest.net/"> SpeedTest </a> </td>
 			<td> <a href="https://monkeytype.com/"> MonkeyType  </a> </td>
 		</tr>
 
-		<tr>
+		<tr width="25%" style='width:25%;background:#dbdce2;padding:.75pt .75pt .75pt .75pt'>
 			<td> <a href="https://unblock-it.com/"> Unblockit  </a> </td>
 			<td> <a href="https://itselftools.com/"> ItSelfTools </a> </td>
 			<td> <a href="https://www.pixelcut.ai/tools"> Pixelcut </a> </td>
 			<td> <a href="https://z-library.sk/"> Ebooks </a> </td>
 		</tr>
 
-		<tr>
+		<tr width="25%" style='width:25%;background:#dbdce2;padding:.75pt .75pt .75pt .75pt'>
 			<td> <a href="http://wallpaperswide.com/"> Wallpapers Wide</a>  </td>
 			<td> <a href="https://hdqwalls.com/"> HDQwalls</a>  </td>
 			<td> <a href="https://wallhaven.cc/"> Wallhaven </a> </td>
 			<td> <a href="https://www.deviantart.com/"> Deviantart </a> </td>
 		</tr>
 
-		<tr>
+		<tr width="25%" style='width:25%;background:#dbdce2;padding:.75pt .75pt .75pt .75pt'>
 			<td> <a href="https://send-anywhere.com/"> Send Anywhere </a> </td>
 			<td> <a href="https://send.vis.ee/"> Send </a> </td>
 			<td> <a href="https://wetransfer.com/"> WeTransfer</a>  </td>
 			<td> <a href="https://pairdrop.net/"> PairDrop </a> </td>
 		</tr>
 
-		<tr>
+		<tr width="25%" style='width:25%;background:#dbdce2;padding:.75pt .75pt .75pt .75pt'>
 			<td> <a href="https://languagetool.org/"> LanguageTool </a> </td>
 			<td> <a href="https://www.qrcode-monkey.com/"> QRCode</a> 	</td>
 			<td> <a href="https://www.flowcode.com/"> Flowcode</a>  </td>
 			<td> <a href="https://www.shorturl.at/"> Short URL</a>  </td>
 		</tr>
 
-		<tr>
+		<tr width="25%" style='width:25%;background:#dbdce2;padding:.75pt .75pt .75pt .75pt'>
 			<td> <a href="https://www.flipkart.com/"> Flipkart</a>  </td>
 			<td> <a href="https://www.amazon.in/"> Amazon </a> </td>
 			<td> <a href="https://www.cashify.in/"> Cashify </a>  </td>
 			<td> <a href="https://web-check.xyz/ "> WebCheck </a> </td>
 		</tr>
 
-		<tr>
+		<tr width="25%" style='width:25%;background:#dbdce2;padding:.75pt .75pt .75pt .75pt'>
 			<td> <a href="https://pdfcandy.com/"> PDF Candy </a> </td>
 			<td> <a href="https://www.sejda.com/pdf-editor"> PDF Editor </a> </td>
 			<td> <a href="https://pdf.to/"> PDF To </a> </td>
 			<td> <a href="https://www.ilovepdf.com/"> I Love PDF </a> </td>
 		</tr>
 
-		<tr>
+		<tr width="25%" style='width:25%;background:#dbdce2;padding:.75pt .75pt .75pt .75pt'>
 			<td> <a href="https://www.listennotes.com/"> Podcast </a>  </td>
 			<td> <a href="https://web.whatsapp.com/"> WhatsApp Web </a>  </td>
 			<td> <a href="https://messages.google.com/web/authentication"> Messages </a> </td>
 			<td> <a href="https://meet.jit.si/"> Jitsi </a> </td>
 		</tr>
 
-		<tr>
+		<tr width="25%" style='width:25%;background:#dbdce2;padding:.75pt .75pt .75pt .75pt'>
 			<td> <a href="https://www.virustotal.com/gui/home/upload"> VirusTotal </a> </td>
 			<td> <a href="https://virusscan.jotti.org/en-US/scan-file"> VirusScanner </a> </td>
 			<td> <a href="https://downforeveryoneorjustme.com/"> Down For </a>  </td>
 			<td> <a href="https://downdetector.in/"> Downdetector </a> </td>
 		</tr>
 
-		<tr>
+		<tr width="25%" style='width:25%;background:#dbdce2;padding:.75pt .75pt .75pt .75pt'>
 			<td> <a href="https://github.com/StevenBlack/hosts"> Hosts </a> </td>
 			<td> <a href="https://privacy.sexy/"> Privacy </a> </td>
 			<td> <a href="https://farside.link/"> Farside </a>  </td>
 			<td> <a href="https://alternativeto.net/"> AlternativeTo </a></td>
 		</tr>
 
-		<tr>
+		<tr width="25%" style='width:25%;background:#dbdce2;padding:.75pt .75pt .75pt .75pt'>
 			<td> <a href="https://github.com/Sycnex/Windows10Debloater"> Sycnex Script </a>  </td>
 			<td> <a href="https://github.com/ChrisTitusTech/winutil"> ChrisTitus Script </a> </td>
 			<td> <a href="https://wpd.app/"> WPD </a>  </td>
 			<td> <a href="https://massgrave.dev/"> MAS </a> </td>
 		</tr>
 
-		<tr>
+		<tr width="25%" style='width:25%;background:#dbdce2;padding:.75pt .75pt .75pt .75pt'>
 	  		<td> <a href="https://winstall.app/"> Winstall </a>  </td>
 			<td> <a href="https://www.oo-software.com/en/shutup10"> ShutUp </a> </td>
 			<td> <a href="https://www.fosshub.com/"> Fosshub </a> </td>
 			<td> <a href="https://www.sordum.org/"> Sordum </a> </td>
 		</tr>
 
-		<tr>
+		<tr width="25%" style='width:25%;background:#dbdce2;padding:.75pt .75pt .75pt .75pt'>
 			<td> <a href="https://browserleaks.com/"> BrowserLeaks </a> </td>
 			<td> <a href="https://siteunblocked.info/"> Site Unblocked </a> </td>
 			<td> <a href="https://www.pdfdrive.com/"> PDF Drive </a>  </td>
 			<td> <a href="https://sci.hubg.org/"> SciHub </a> </td>
 		</tr>
 
-		<tr>
+		<tr width="25%" style='width:25%;background:#dbdce2;padding:.75pt .75pt .75pt .75pt'>
 			<td> <a href="https://portableapps.com/apps"> PortableApps </a> </td>
 			<td> <a href="https://portapps.io/apps/"> PortApps </a> </td>
 			<td> <a href="https://portableappz.blogspot.com/"> PortableAppz </a> </td>
 			<td> <a href="https://www.fcportables.com/"> FCPortables </a> </td>
 		</tr>
 
-		<tr>
+		<tr width="25%" style='width:25%;background:#dbdce2;padding:.75pt .75pt .75pt .75pt'>
 			<td> <a href="https://nextdns.io/">NextDNS </a> </td>
 			<td> <a href="https://www.privacytools.io/">PrivacyTools </a> </td>
 			<td> <a href="https://www.privacyguides.org/">PrivacyGuides </a> </td>
 			<td> <a href="https://exodus-privacy.eu.org/en/">Exodus </a> </td>
 		</tr>
 
-		<tr>
+		<tr width="25%" style='width:25%;background:#dbdce2;padding:.75pt .75pt .75pt .75pt'>
 			<td> <a href="https://f-droid.org/en/packages/">F-Droid </a> </td>
 			<td> <a href="https://www.app-sales.net/">AppSales </a> </td>
 			<td> <a href="https://github.com/FossifyOrg">Fossify </a> </td>
 			<td> <a href="https://grayjay.app/">Grayjay </a> </td>
 		</tr>
-    </table>
-</body>
+
+	</table>
+	</body>
 </html>
