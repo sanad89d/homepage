@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    background-color: #dbdde2;
+    font-family: Arial, sans-serif;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table td, table th {
+    padding: 9px;
+    text-align: center;
+    border: 3px solid #cc81d3; /* Adding borders to table cells */
+    font-size: 18px;
+}
+
+table th {
+    background-color: #93e5e1; /* Light background for headers */
+}
+
+/* Navigation Buttons */
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.marquee-container {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Mobile-responsive Styles */
+@media screen and (max-width: 768px) {
+    .navigation-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttons {
+        justify-content: space-around;
+    }
+
+    table td, table th {
+        font-size: 16px; /* Smaller font size for smaller screens */
+        padding: 6px;    /* Adjust padding for smaller screens */
+    }
+
+    .btn {
+        font-size: 12px; /* Smaller button text for mobile */
+        padding: 8px 12px;
+    }
+
+    .marquee-container {
+        font-size: 14px; /* Adjust font size for mobile */
+    }
+}
+
+/* Additional smaller screen adjustments */
+@media screen and (max-width: 480px) {
+    .btn {
+        font-size: 10px; /* Further reduce button font size */
+        padding: 6px 10px;
+    }
+
+    table td, table th {
+        font-size: 14px; /* Further reduce table font size */
+    }
+
+    .marquee-container {
+        font-size: 12px; /* Further reduce marquee font size */
+    }
+}
