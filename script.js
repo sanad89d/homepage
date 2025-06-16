@@ -1,5 +1,5 @@
 const linksRows = [
-  { href: "http://www.gmail.com", text: "Gmail" },
+   { href: "http://www.gmail.com", text: "Gmail" },
   { href: "https://outlook.live.com/owa/", text: "Outlook" },
   { href: "https://mail.yahoo.com/", text: "Yahoo Mail" },
   { href: "https://proton.me/mail", text: "ProtonMail" },
@@ -139,11 +139,6 @@ const linksRows = [
   { href: "https://1cinevood.asia/", text: "Cinevood" },
   { href: "https://www.1tamilblasters.fi/", text: "Tamil Blasters" },
 
-  { href: "https://www.yodesi.online/", text: "YoDesi" },
-  { href: "https://ziddidil.com/", text: "Ziddidil" },
-  { href: "https://ww4.yodesitv.org/", text: "YoDesiTV" },
-  { href: "https://serialmaza.biz/", text: "SerialGhar" }
-
   { href: "https://fmhy.pages.dev/", text: "fmhy" },
   { href: "https://softarchive.is/windows/", text: "SoftArchive" },
   { href: "https://ftuapps.dev/?1", text: "FTUApps" },
@@ -209,35 +204,10 @@ const linksRows = [
   { href: "https://redditsave.com/", text: "RedditSave" },
   { href: "https://viddit.red/", text: "Viddit" },
 
-  { href: "https://www.tldraw.com/", text: "tldraw" },
-  { href: "https://excalidraw.com/", text: "Excalidraw" },
-  { href: "https://app.diagrams.net/", text: "diagrams.net" },
-  { href: "https://useblankly.com/", text: "Blankly" },
-
-  { href: "https://chatgpt.com/", text: "ChatGPT" },
-  { href: "https://gemini.google.com/app", text: "Gemini" },
-  { href: "https://copilot.microsoft.com/chats/", text: "Copilot" },
-  { href: "https://grok.com/", text: "Grok" },
-
-  { href: "https://elevenlabs.io/", text: "ElevenLabs" },
-  { href: "https://www.wellsaid.io/", text: "WellSaid" },
-  { href: "https://riverside.fm/tools", text: "Riverside" },
-  { href: "https://clipdrop.co/tools", text: "ClipDrop" },
-
-  { href: "https://www.futuretools.io/", text: "FutureTools" },
-  { href: "https://www.futurepedia.io/", text: "Futurepedia" },
-  { href: "https://mrfreetools.com/tools/", text: "MrFreeTools" },
-  { href: "https://huggingface.co/spaces", text: "HuggingFace" },
-
-  { href: "https://www.heygen.com/", text: "HeyGen" },
-  { href: "https://invideo.io/", text: "InVideo" },
-  { href: "https://www.unscript.ai/", text: "Unscript" },
-  { href: "https://klingai.com/global/", text: "Kling" },
-
-  { href: "https://app.klingai.com/global/", text: "Kling Tools" },
-  { href: "https://notebooklm.google/", text: "NotebookLM" },
-  { href: "https://reddit-recap.vercel.app/", text: "Reddit Recap" },
-  { href: "https://stitch.withgoogle.com/", text: "Stitch" },
+  { href: "https://www.yodesi.online/", text: "YoDesi" },
+  { href: "https://ziddidil.com/", text: "Ziddidil" },
+  { href: "https://ww4.yodesitv.org/", text: "YoDesiTV" },
+  { href: "https://serialmaza.biz/", text: "SerialGhar" }
 ];
 
 function createSearchableTable(containerId, data, filter = '') {
