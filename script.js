@@ -1,5 +1,5 @@
 const linksRows = [
-   { href: "http://www.gmail.com", text: "Gmail" },
+  { href: "http://www.gmail.com", text: "Gmail" },
   { href: "https://outlook.live.com/owa/", text: "Outlook" },
   { href: "https://mail.yahoo.com/", text: "Yahoo Mail" },
   { href: "https://proton.me/mail", text: "ProtonMail" },
@@ -8,7 +8,6 @@ const linksRows = [
   { href: "https://odysee.com/", text: "Odysee" },
   { href: "https://api.invidious.io/", text: "Invidious" },
   { href: "https://youtube4kdownloader.com/en66/", text: "YoutubeDownloader" },
-
   { href: "https://searx.space/", text: "Searx" },
   { href: "https://search.brave.com/", text: "Brave" },
   { href: "https://duckduckgo.com/", text: "DuckDuckGo" },
@@ -207,7 +206,42 @@ const linksRows = [
   { href: "https://www.yodesi.online/", text: "YoDesi" },
   { href: "https://ziddidil.com/", text: "Ziddidil" },
   { href: "https://ww4.yodesitv.org/", text: "YoDesiTV" },
-  { href: "https://serialmaza.biz/", text: "SerialGhar" }
+  { href: "https://serialmaza.biz/", text: "SerialGhar" },
+  
+  { href: "https://www.tldraw.com/", text: "tldraw" },
+  { href: "https://excalidraw.com/", text: "Excalidraw" },
+  { href: "https://app.diagrams.net/", text: "diagrams.net" },
+  { href: "https://useblankly.com/", text: "Blankly" },
+
+  { href: "https://chatgpt.com/", text: "ChatGPT" },
+  { href: "https://gemini.google.com/app", text: "Gemini" },
+  { href: "https://copilot.microsoft.com/chats/", text: "Copilot" },
+  { href: "https://grok.com/", text: "Grok" },
+  
+  { href: "https://elevenlabs.io/", text: "ElevenLabs" },
+  { href: "https://www.wellsaid.io/", text: "WellSaid" },
+  { href: "https://riverside.fm/tools", text: "Riverside Tools" },
+  { href: "https://clipdrop.co/tools", text: "ClipDrop Tools" },
+  
+  { href: "https://www.futuretools.io/", text: "FutureTools" },
+  { href: "https://www.futurepedia.io/", text: "Futurepedia" },
+  { href: "https://mrfreetools.com/tools/", text: "MrFreeTools" },
+  { href: "https://huggingface.co/spaces", text: "Hugging Face Spaces" },
+  
+  { href: "https://www.heygen.com/", text: "HeyGen" },
+  { href: "https://invideo.io/", text: "InVideo" },
+  { href: "https://www.unscript.ai/", text: "Unscript" },
+  { href: "https://klingai.com/global/", text: "Kling AI" },
+  
+  { href: "https://app.klingai.com/global/", text: "Kling AI App" },
+  { href: "https://notebooklm.google/", text: "NotebookLM" },
+  { href: "https://reddit-recap.vercel.app/", text: "Reddit Recap" },
+  { href: "https://stitch.withgoogle.com/", text: "Google Stitch" },
+
+  { href: "https://github.com/ios12checker/Windows-Maintenance-Tool/", text: "Windows Maintenance Tool" },
+  { href: "https://github.com/ios12checker/MSS-Mac-Service-Script", text: "Mac Service Script" },
+  { href: "https://github.com/ChrisTitusTech/linutil", text: "Linux Utility" },
+  { href: "https://github.com/memstechtips/UnattendedWinstall", text: "UnattendedWinstall" }
 ];
 
 function createSearchableTable(containerId, data, filter = '') {
@@ -241,14 +275,14 @@ function createSearchableTable(containerId, data, filter = '') {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  if (document.getElementById('searchable-table-container')) {
-    createSearchableTable('searchable-table-container', linksRows);
+  const containerId = 'searchable-table-container';
+  const input = document.getElementById('search-input');
 
-    const input = document.getElementById('search-input');
-    if (input) {
-      input.addEventListener('input', (e) =>
-        createSearchableTable('searchable-table-container', linksRows, e.target.value)
-      );
-    }
+  if (containerId && input) {
+    createSearchableTable(containerId, linksRows);
+
+    input.addEventListener('input', (e) => {
+      createSearchableTable(containerId, linksRows, e.target.value);
+    });
   }
 });
