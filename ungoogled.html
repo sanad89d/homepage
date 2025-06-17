@@ -120,22 +120,6 @@
   <a href="https://chatgpt.com/codex" target="_blank" rel="noopener noreferrer">Codex</a>
   <a href="https://copilot.microsoft.com/" target="_blank" rel="noopener noreferrer">Copilot</a>
 </div>
-<h3>BypassPaywalls</h3>
-<div class='category'>
-  <a href="https://12ft.io/" target="_blank" rel="noopener noreferrer">12ft</a>
-  <a href="https://github.com/wasi-master/13ft" target="_blank" rel="noopener noreferrer">13 Feet Ladder</a>
-  <a href="https://13ft.wasimaster.me/" target="_blank" rel="noopener noreferrer">13ft Ladder</a>
-  <a href="https://github.com/nextgens/anti-paywall" target="_blank" rel="noopener noreferrer">Anti-Paywall</a>
-  <a href="https://archive.ph/" target="_blank" rel="noopener noreferrer">Archive</a>
-  <a href="https://gitflic.ru/project/magnolia1234/bpc_uploads" target="_blank" rel="noopener noreferrer">BypassPaywallsClean</a>
-  <a href="https://github.com/iamadamdev/bypass-paywalls-chrome" target="_blank" rel="noopener noreferrer">iamadamdev</a>
-  <a href="https://incoggo.com/" target="_blank" rel="noopener noreferrer">incoggo</a>
-  <a href="https://github.com/everywall/ladder" target="_blank" rel="noopener noreferrer">Ladder</a>
-  <a href="https://paywallreader.com/" target="_blank" rel="noopener noreferrer">Paywall Reader</a>
-  <a href="https://fmhy.pages.dev/internet-tools#paywall-bypass" target="_blank" rel="noopener noreferrer">paywall-bypass-tools</a>
-  <a href="https://unpaywall.org/" target="_blank" rel="noopener noreferrer">Unpaywall</a>
-  <a href="https://github.com/ourresearch/unpaywall-extension" target="_blank" rel="noopener noreferrer">Unpaywall | Github</a>
-</div>
 <h3>E</h3>
 <div class='category'>
   <a href="https://www.bulkurlopener.com/" target="_blank" rel="noopener noreferrer">Bulk URL Opener</a>
@@ -465,18 +449,25 @@
 <script>
 const searchBox = document.getElementById('searchBox');
 const container = document.getElementById('bookmarksContainer');
+
 searchBox.addEventListener('input', () => {
   const filter = searchBox.value.toLowerCase();
-  const categories = container.querySelectorAll('.category');
-  categories.forEach(category => {
+  const headings = container.querySelectorAll('h3');
+
+  headings.forEach(h3 => {
+    const category = h3.nextElementSibling;
     const links = category.querySelectorAll('a');
     let anyVisible = false;
+
     links.forEach(link => {
       const match = link.textContent.toLowerCase().includes(filter);
       link.style.display = match ? 'inline-block' : 'none';
       if (match) anyVisible = true;
     });
-    category.style.display = anyVisible ? '' : 'none';
+
+    // Show/hide the whole section
+    h3.style.display = anyVisible ? '' : 'none';
+    category.style.display = anyVisible ? 'flex' : 'none';
   });
 });
 </script>

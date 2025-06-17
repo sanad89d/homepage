@@ -1,3 +1,4 @@
+
 const linksRows = [
   { href: "http://www.gmail.com", text: "Gmail" },
   { href: "https://outlook.live.com/owa/", text: "Outlook" },
@@ -254,45 +255,63 @@ const linksRows = [
   { href: "https://github.com/memstechtips/UnattendedWinstall", text: "UnattendedWinstall" }
 ];
 
-function createSearchableTable(containerId, data, filter = '') {
-  const container = document.getElementById(containerId);
-  if (!container) return;
+    // Light/Dark Mode Toggle
+    document.addEventListener('DOMContentLoaded', () => {
+      const toggle = document.getElementById('theme-toggle');
 
-  const search = filter.toLowerCase();
-  const filtered = data.filter(link =>
-    link.text.toLowerCase().includes(search) || link.href.toLowerCase().includes(search)
-  );
+      if (localStorage.getItem('theme') === 'dark') {
+        document.body.classList.add('dark-mode');
+        toggle.checked = true;
+      }
 
-  container.innerHTML = '';
-  const table = document.createElement('table');
+      toggle.addEventListener('change', () => {
+        document.body.classList.toggle('dark-mode');
+        localStorage.setItem(
+          'theme',
+          document.body.classList.contains('dark-mode') ? 'dark' : 'light'
+        );
+      });
 
-  for (let i = 0; i < filtered.length; i += 4) {
-    const tr = document.createElement('tr');
-    for (let j = i; j < i + 4 && j < filtered.length; j++) {
-      const td = document.createElement('td');
-      const a = document.createElement('a');
-      a.href = filtered[j].href;
-      a.textContent = filtered[j].text;
-      a.target = '_blank';
-      a.rel = 'noopener noreferrer';
-      td.appendChild(a);
-      tr.appendChild(td);
-    }
-    table.appendChild(tr);
-  }
+      // Searchable table function
+      function createSearchableTable(containerId, data, filter = '') {
+        const container = document.getElementById(containerId);
+        if (!container) return;
 
-  container.appendChild(table);
-}
+        const search = filter.toLowerCase();
+        const filtered = data.filter(link =>
+          link.text.toLowerCase().includes(search) || link.href.toLowerCase().includes(search)
+        );
 
-document.addEventListener('DOMContentLoaded', () => {
-  const containerId = 'searchable-table-container';
-  const input = document.getElementById('search-input');
+        container.innerHTML = '';
+        const table = document.createElement('table');
 
-  if (containerId && input) {
-    createSearchableTable(containerId, linksRows);
+        for (let i = 0; i < filtered.length; i += 4) {
+          const tr = document.createElement('tr');
+          for (let j = i; j < i + 4 && j < filtered.length; j++) {
+            const td = document.createElement('td');
+            const a = document.createElement('a');
+            a.href = filtered[j].href;
+            a.textContent = filtered[j].text;
+            a.target = '_blank';
+            a.rel = 'noopener noreferrer';
+            td.appendChild(a);
+            tr.appendChild(td);
+          }
+          table.appendChild(tr);
+        }
 
-    input.addEventListener('input', (e) => {
-      createSearchableTable(containerId, linksRows, e.target.value);
+        container.appendChild(table);
+      }
+
+      // Init search
+      const containerId = 'searchable-table-container';
+      const input = document.getElementById('search-input');
+
+      if (containerId && input) {
+        createSearchableTable(containerId, linksRows);
+
+        input.addEventListener('input', (e) => {
+          createSearchableTable(containerId, linksRows, e.target.value);
+        });
+      }
     });
-  }
-});
