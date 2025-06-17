@@ -138,6 +138,16 @@ const linksRows = [
   { href: "https://1cinevood.asia/", text: "Cinevood" },
   { href: "https://www.1tamilblasters.fi/", text: "Tamil Blasters" },
 
+  { href: "https://www.imdb.com/", text: "IMDb" },
+  { href: "https://www.justwatch.com/in", text: "JustWatch" },
+  { href: "https://mdblist.com/", text: "MDBList" },
+  { href: "https://www.metacritic.com/", text: "Metacritic" },
+
+  { href: "https://reelgood.com/", text: "Reelgood" },
+  { href: "https://www.rottentomatoes.com/", text: "Rotten Tomatoes" },
+  { href: "https://thetvdb.com/", text: "TheTVDB" },
+  { href: "https://www.themoviedb.org/", text: "TMDb" },
+
   { href: "https://fmhy.pages.dev/", text: "fmhy" },
   { href: "https://softarchive.is/windows/", text: "SoftArchive" },
   { href: "https://ftuapps.dev/?1", text: "FTUApps" },
