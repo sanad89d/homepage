@@ -249,6 +249,11 @@ const linksRows = [
   { href: "https://reddit-recap.vercel.app/", text: "Reddit Recap" },
   { href: "https://stitch.withgoogle.com/", text: "Google Stitch" },
 
+  { href: "https://www.krea.ai/", text: "Krea" },
+  { href: "https://dub.co/", text: "Dub" },
+  { href: "https://manus.im/", text: "Manus" },
+  { href: "https://www.perplexity.ai/", text: "Perplexity" },
+
   { href: "https://github.com/ios12checker/Windows-Maintenance-Tool/", text: "Windows Maintenance Tool" },
   { href: "https://github.com/ios12checker/MSS-Mac-Service-Script", text: "Mac Service Script" },
   { href: "https://github.com/ChrisTitusTech/linutil", text: "Linux Utility" },
