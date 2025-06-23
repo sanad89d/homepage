@@ -131,7 +131,7 @@ const linksRows = [
 
   { href: "https://mkvcinemas.red/", text: "MKVCinemas" },
   { href: "https://ssrmovies.llc/", text: "SSRMovies" },
-  { href: "https://www.1tamilmv.boo/", text: "TamilMV" },
+  { href: "https://www.1tamilmv.pet/", text: "TamilMV" },
   { href: "https://downloadhub.gratis/", text: "DownloadHub" },
 
   { href: "https://desiremovies.cologne/", text: "DesireMovies" },
