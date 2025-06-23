@@ -255,9 +255,9 @@ const linksRows = [
   { href: "https://www.perplexity.ai/", text: "Perplexity" },
 
   { href: "https://www.tryshiro.com/", text: "Tryshiro" },
-  { href: "https://chat.minimax.io/", text: "Chat" },
-  { href: "https://www.doesmyideaexist.com/", text: "Doesmyideaexist" },
+  { href: "https://chat.minimax.io/", text: "MiniMax" },
   { href: "https://sora.chatgpt.com/", text: "Sora" },
+  { href: "https://www.doesmyideaexist.com/", text: "Doesmyideaexist" },
 
   { href: "https://github.com/ios12checker/Windows-Maintenance-Tool/", text: "Windows Maintenance Tool" },
   { href: "https://github.com/ios12checker/MSS-Mac-Service-Script", text: "Mac Service Script" },
