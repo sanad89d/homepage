@@ -169,6 +169,11 @@ const linksRows = [
   { href: "https://www.gog.com/", text: "GOG" },
   { href: "https://www.humblebundle.com/store", text: "Humble Bundle" },
 
+  { href: "https://controllertest.org/", text: "Controllertest" },
+  { href: "https://keyboard-tester.com/", text: "Keyboard tester" },
+  { href: "https://hardwaretester.com/", text: "Hardwaretester" },
+  { href: "https://gamepadchecker.com/", text: "Gamepadchecker" },
+
   { href: "https://www.balena.io/etcher/", text: "Etcher" },
   { href: "https://rufus.ie/en/", text: "Rufus" },
   { href: "https://www.ventoy.net/en/index.html", text: "Ventoy" },
