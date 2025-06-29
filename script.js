@@ -114,7 +114,12 @@ const linksRows = [
   { href: "https://www.digit.in/news/", text: "Digit" },
   { href: "https://inshorts.com/en/read/technology", text: "InShorts" },
 
-  { href: "https://pagalnew.com/", text: "Pagalnew" },
+  { href: "https://techurls.com/", text: "Techurls" },
+  { href: "https://newsv2.com/live", text: "Newsv2" },
+  { href: "https://convertall-web.bellz.org/", text: "Convertall" },
+  { href: "https://copychar.cc/", text: "Copychar" },
+
+  { href: "https://pagalnew.net/", text: "Pagalnew" },
   { href: "https://pagalworldmusic.com/", text: "Pagalworldmusic" },
   { href: "https://open.spotify.com/", text: "Spotify" },
   { href: "https://www.tunefind.com/", text: "Tunefind" },
@@ -129,14 +134,14 @@ const linksRows = [
   { href: "https://www.yourserie.com/", text: "Yourserie" },
   { href: "https://rlsbb.ru/", text: "ResleaseBB" },
 
-  { href: "https://mkvcinemas.red/", text: "MKVCinemas" },
-  { href: "https://ssrmovies.llc/", text: "SSRMovies" },
-  { href: "https://www.1tamilmv.pet/", text: "TamilMV" },
+  { href: "https://mkvcinemas.men/", text: "MKVCinemas" },
+  { href: "https://ssrmovies.education/", text: "SSRMovies" },
+  { href: "https://www.1tamilmv.onl/", text: "TamilMV" },
   { href: "https://downloadhub.gratis/", text: "DownloadHub" },
 
   { href: "https://desiremovies.cologne/", text: "DesireMovies" },
   { href: "https://yts.mx/", text: "YTS" },
-  { href: "https://1cinevood.asia/", text: "Cinevood" },
+  { href: "https://1cinevood.my/", text: "Cinevood" },
   { href: "https://www.1tamilblasters.fi/", text: "Tamil Blasters" },
 
   { href: "https://www.imdb.com/", text: "IMDb" },
