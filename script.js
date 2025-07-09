@@ -54,7 +54,7 @@ const linksRows = [
   { href: "https://www.cashify.in/", text: "Cashify" },
   { href: "https://web-check.xyz/", text: "WebCheck" },
 
-  { href: "https://pdfcandy.com/", text: "PDF Candy" },
+  { href: "https://pdfcandy.com/tools.html", text: "PDF Candy" },
   { href: "https://www.sejda.com/pdf-editor", text: "PDF Editor" },
   { href: "https://pdf.to/", text: "PDF To" },
   { href: "https://www.ilovepdf.com/", text: "I Love PDF" },
