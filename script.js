@@ -134,15 +134,15 @@ const linksRows = [
   { href: "https://www.yourserie.com/", text: "Yourserie" },
   { href: "https://rlsbb.ru/", text: "ResleaseBB" },
 
-  { href: "https://mkvcinemas.men/", text: "MKVCinemas" },
-  { href: "https://ssrmovies.education/", text: "SSRMovies" },
-  { href: "https://www.1tamilmv.onl/", text: "TamilMV" },
-  { href: "https://downloadhub.gratis/", text: "DownloadHub" },
+  { href: "https://mkvcinemas.kiwi/", text: "MKVCinemas" },
+  { href: "https://ssrmovies.company/", text: "SSRMovies" },
+  { href: "https://www.1tamilmv.how/", text: "TamilMV" },
+  { href: "https://downloadhub.golf/", text: "DownloadHub" },
 
-  { href: "https://desiremovies.cologne/", text: "DesireMovies" },
+  { href: "https://desiremovies.ist/", text: "DesireMovies" },
   { href: "https://yts.mx/", text: "YTS" },
-  { href: "https://1cinevood.my/", text: "Cinevood" },
-  { href: "https://www.1tamilblasters.fi/", text: "Tamil Blasters" },
+  { href: "https://1cinevood.onl/", text: "Cinevood" },
+  { href: "https://www.1tamilblasters.help/", text: "Tamil Blasters" },
 
   { href: "https://www.imdb.com/", text: "IMDb" },
   { href: "https://www.justwatch.com/in", text: "JustWatch" },
