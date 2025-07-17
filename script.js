@@ -61,12 +61,27 @@ const linksRows = [
   { href: "https://pairdrop.net/", text: "PairDrop" },
 
   { href: "https://languagetool.org/", text: "LanguageTool" },
+  { href: "https://www.gingersoftware.com/grammarcheck", text: "Gingersoftware" },
+  { href: "https://www.grammarly.com/grammar-check", text: "Grammarly" },
+  { href: "https://prowritingaid.com/grammar-checker", text: "Prowritingaid" },
+
   { href: "https://www.qrcode-monkey.com/", text: "QRCode" },
-  { href: "https://www.flowcode.com/", text: "Flowcode" },
+  { href: "https://scanova.io/qr-code-generator/", text: "Scanova" },
+  { href: "https://www.qrstuff.com/", text: "Qrstuff" },
+  { href: "https://qrfy.com/", text: "Qrfy" },
+
   { href: "https://ipintel.vercel.app/", text: "Ipintel" },
+  { href: "https://dnschecker.org/all-tools.php", text: "Dnschecker" },
+  { href: "https://www.urlvoid.com/", text: "Urlvoid" },
+  { href: "https://browserleaks.com/", text: "BrowserLeaks" },
   
+  { href: "https://web-check.xyz/", text: "WebCheck" },
+  { href: "https://www.scamadviser.com/", text: "Scamadviser" },
+  { href: "https://www.scamvoid.net/", text: "Scamvoid" },
+  { href: "https://scambunkers.com/", text: "Scambunkers" },
+
   { href: "https://dub.co/", text: "Dub" },
-  { href: "https://t.ly/", text: "T" },
+  { href: "https://t.ly/", text: "T.ly" },
   { href: "https://www.temporary-url.com/", text: "Temporary url" },
   { href: "https://throw-me.vercel.app/", text: "Throw me" },
 
@@ -83,7 +98,7 @@ const linksRows = [
   { href: "https://www.flipkart.com/", text: "Flipkart" },
   { href: "https://www.amazon.in/", text: "Amazon" },
   { href: "https://www.cashify.in/", text: "Cashify" },
-  { href: "https://web-check.xyz/", text: "WebCheck" },
+  { href: "https://www.controlz.world/store", text: "Controlz" },
 
   { href: "https://pdfcandy.com/tools.html", text: "PDF Candy" },
   { href: "https://www.sejda.com/pdf-editor", text: "PDF Editor" },
@@ -120,7 +135,7 @@ const linksRows = [
   { href: "https://www.fosshub.com/", text: "Fosshub" },
   { href: "https://www.sordum.org/", text: "Sordum" },
 
-  { href: "https://browserleaks.com/", text: "BrowserLeaks" },
+  { href: "https://torrends.to/proxy/", text: "Torrends" },
   { href: "https://siteunblocked.info/", text: "Site Unblocked" },
   { href: "https://www.pdfdrive.com/", text: "PDF Drive" },
   { href: "https://www.sci-hub.pub/", text: "SciHub" },
