@@ -3,12 +3,23 @@ const linksRows = [
   { href: "http://www.gmail.com", text: "Gmail" },
   { href: "https://outlook.live.com/owa/", text: "Outlook" },
   { href: "https://mail.yahoo.com/", text: "Yahoo Mail" },
-  { href: "https://proton.me/mail", text: "ProtonMail" },
+  { href: "https://mail.rediff.com/cgi-bin/login.cgi", text: "Mail" },
+
+  { href: "https://account.proton.me/mail", text: "Account" },
+  { href: "https://app.tuta.com/login", text: "App" },
+  { href: "https://www.mailo.com/", text: "Mailo" },
+  { href: "https://atomicmail.io/", text: "Atomicmail" },
+
+  { href: "https://www.zoho.com/mail/", text: "Zoho" },
+  { href: "https://www.startmail.com/", text: "Startmail" },
+  { href: "https://disroot.org/en", text: "Disroot" },
+  { href: "https://pissmail.com/login.php", text: "Pissmail" },
 
   { href: "https://www.youtube.com/", text: "Youtube" },
   { href: "https://odysee.com/", text: "Odysee" },
   { href: "https://api.invidious.io/", text: "Invidious" },
   { href: "https://youtube4kdownloader.com/en66/", text: "YoutubeDownloader" },
+  
   { href: "https://searx.space/", text: "Searx" },
   { href: "https://search.brave.com/", text: "Brave" },
   { href: "https://duckduckgo.com/", text: "DuckDuckGo" },
@@ -22,7 +33,12 @@ const linksRows = [
   { href: "https://123apps.com/", text: "WebApps" },
   { href: "https://www.online-convert.com/", text: "Online Convert" },
   { href: "https://www.photopea.com/", text: "Photopea" },
+  { href: "https://www.vectorpea.com/", text: "Vectorpea" },
+
   { href: "https://pixlr.com/remove-background/", text: "RemoveBG" },
+  { href: "https://www.photoroom.com/tools", text: "Photoroom" },
+  { href: "https://cleanup.pictures/", text: "Cleanup" },
+  { href: "https://invoice-generator.com/", text: "Invoice generator" },
 
   { href: "https://www.dwservice.net/", text: "DWService" },
   { href: "https://haveibeenpwned.com/", text: "have i been pwned?" },
@@ -47,7 +63,22 @@ const linksRows = [
   { href: "https://languagetool.org/", text: "LanguageTool" },
   { href: "https://www.qrcode-monkey.com/", text: "QRCode" },
   { href: "https://www.flowcode.com/", text: "Flowcode" },
-  { href: "https://www.shorturl.at/", text: "Short URL" },
+  { href: "https://ipintel.vercel.app/", text: "Ipintel" },
+  
+  { href: "https://dub.co/", text: "Dub" },
+  { href: "https://t.ly/", text: "T" },
+  { href: "https://www.temporary-url.com/", text: "Temporary url" },
+  { href: "https://throw-me.vercel.app/", text: "Throw me" },
+
+  { href: "https://shorturl.com/", text: "Shorturl" },
+  { href: "https://www.shorturl.at/", text: "Shorturl" },
+  { href: "https://unshorten.it/", text: "Unshorten" },
+  { href: "https://wheregoes.com/", text: "Wheregoes" },
+
+  { href: "https://www.screenshotmachine.com/", text: "Screenshotmachine" },
+  { href: "https://brokenlinkcheck.com/", text: "Brokenlinkcheck" },
+  { href: "https://www.deadlinkchecker.com/", text: "Deadlinkchecker" },
+  { href: "https://www.drlinkcheck.com/", text: "Drlinkcheck" },
 
   { href: "https://www.flipkart.com/", text: "Flipkart" },
   { href: "https://www.amazon.in/", text: "Amazon" },
@@ -58,6 +89,11 @@ const linksRows = [
   { href: "https://www.sejda.com/pdf-editor", text: "PDF Editor" },
   { href: "https://pdf.to/", text: "PDF To" },
   { href: "https://www.ilovepdf.com/", text: "I Love PDF" },
+
+  { href: "https://stirlingpdf.io/", text: "Stirlingpdf" },
+  { href: "https://www.i2pdf.com/", text: "I2pdf" },
+  { href: "https://www.printfriendly.com/", text: "Printfriendly" },
+  { href: "https://www.chatpdf.com/", text: "Chatpdf" },
 
   { href: "https://www.listennotes.com/", text: "Podcast" },
   { href: "https://web.whatsapp.com/", text: "WhatsApp Web" },
@@ -135,14 +171,14 @@ const linksRows = [
   { href: "https://rlsbb.ru/", text: "ResleaseBB" },
 
   { href: "https://mkvcinemas.kiwi/", text: "MKVCinemas" },
-  { href: "https://ssrmovies.company/", text: "SSRMovies" },
-  { href: "https://www.1tamilmv.how/", text: "TamilMV" },
   { href: "https://downloadhub.golf/", text: "DownloadHub" },
-
   { href: "https://desiremovies.ist/", text: "DesireMovies" },
-  { href: "https://yts.mx/", text: "YTS" },
   { href: "https://1cinevood.onl/", text: "Cinevood" },
-  { href: "https://www.1tamilblasters.help/", text: "Tamil Blasters" },
+
+  { href: "https://ssrmovies.company/", text: "SSRMovies" },
+  { href: "https://www.1tamilblasters.boo/", text: "Tamil Blasters" },
+  { href: "https://www.1tamilmv.tube/", text: "TamilMV" },
+  { href: "https://yts.mx/", text: "YTS" },
 
   { href: "https://www.imdb.com/", text: "IMDb" },
   { href: "https://www.justwatch.com/in", text: "JustWatch" },
@@ -221,8 +257,13 @@ const linksRows = [
 
   { href: "https://fdownloader.net/en", text: "FB Video Downloader" },
   { href: "https://spotdownloader.com/", text: "Spotify Downloader" },
-  { href: "https://redditsave.com/", text: "RedditSave" },
+  { href: "https://spotidownloader.com/en", text: "Spotidownloader" },
+  { href: "https://spowload.com/en", text: "Spowload" },
+
+  { href: "https://www.reddit.com/answers/", text: "Reddit" },
+  { href: "https://reddit-recap.vercel.app/", text: "Reddit recap" },
   { href: "https://viddit.red/", text: "Viddit" },
+  { href: "https://rapidsave.com/", text: "Rapidsave" },
 
   { href: "https://www.yodesi.online/", text: "YoDesi" },
   { href: "https://ziddidil.com/", text: "Ziddidil" },
