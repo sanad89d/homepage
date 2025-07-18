@@ -2,13 +2,13 @@
 const linksRows = [
   { href: "http://www.gmail.com", text: "Gmail" },
   { href: "https://outlook.live.com/owa/", text: "Outlook" },
-  { href: "https://mail.yahoo.com/", text: "Yahoo Mail" },
-  { href: "https://mail.rediff.com/cgi-bin/login.cgi", text: "Mail" },
+  { href: "https://mail.yahoo.com/", text: "Yahoo" },
+  { href: "https://mail.rediff.com/cgi-bin/login.cgi", text: "Reddit" },
 
-  { href: "https://account.proton.me/mail", text: "Account" },
-  { href: "https://app.tuta.com/login", text: "App" },
+  { href: "https://account.proton.me/mail", text: "Proton" },
+  { href: "https://app.tuta.com/login", text: "Tuta" },
   { href: "https://www.mailo.com/", text: "Mailo" },
-  { href: "https://atomicmail.io/", text: "Atomicmail" },
+  { href: "https://atomicmail.io/", text: "Atomic" },
 
   { href: "https://www.zoho.com/mail/", text: "Zoho" },
   { href: "https://www.startmail.com/", text: "Startmail" },
@@ -254,6 +254,11 @@ const linksRows = [
   { href: "https://www.scamadviser.com/", text: "ScamAdviser" },
   { href: "https://yopass.se/", text: "YoPass" },
   { href: "https://pwpush.com/", text: "PWPush" },
+
+  { href: "https://mullvad.net/en/help/dns-over-https-and-dns-over-tls", text: "Mullvad" },
+  { href: "https://www.opendns.com/", text: "Opendns" },
+  { href: "https://quad9.net/", text: "Quad9" },
+  { href: "https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/agentless/dns/dns-over-https/", text: "Cloudflare" },
 
   { href: "https://takeout.google.com/", text: "Takeout" },
   { href: "https://imgcandy.com/", text: "IMG Candy" },
