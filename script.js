@@ -38,17 +38,22 @@ const linksRows = [
   { href: "https://pixlr.com/remove-background/", text: "RemoveBG" },
   { href: "https://www.photoroom.com/tools", text: "Photoroom" },
   { href: "https://cleanup.pictures/", text: "Cleanup" },
-  { href: "https://invoice-generator.com/", text: "Invoice generator" },
+  { href: "https://www.pixelcut.ai/tools", text: "Pixelcut" },
 
   { href: "https://www.dwservice.net/", text: "DWService" },
-  { href: "https://haveibeenpwned.com/", text: "have i been pwned?" },
+  { href: "https://rustdesk.com/web/", text: "RustDesk" },
   { href: "https://www.speedtest.net/", text: "SpeedTest" },
   { href: "https://monkeytype.com/", text: "MonkeyType" },
 
-  { href: "https://unblock-it.com/", text: "Unblockit" },
+  { href: "https://vscode.dev/", text: "vscode" },
   { href: "https://itselftools.com/", text: "ItSelfTools" },
-  { href: "https://www.pixelcut.ai/tools", text: "Pixelcut" },
+  { href: "https://invoice-generator.com/", text: "Invoice generator" },
   { href: "https://z-library.sk/", text: "Ebooks" },
+
+  { href: "https://endoflife.date/", text: "Endoflife" },
+  { href: "https://tosdr.org/en", text: "Tosdr" },
+  { href: "https://libredirect.github.io/", text: "Libredirect" },
+  { href: "https://haveibeenpwned.com/", text: "Haveibeenpwned" },
 
   { href: "http://wallpaperswide.com/", text: "Wallpapers Wide" },
   { href: "https://hdqwalls.com/", text: "HDQwalls" },
@@ -135,7 +140,7 @@ const linksRows = [
   { href: "https://www.fosshub.com/", text: "Fosshub" },
   { href: "https://www.sordum.org/", text: "Sordum" },
 
-  { href: "https://torrends.to/proxy/", text: "Torrends" },
+  { href: "https://unblock-it.com/", text: "Unblockit" },
   { href: "https://siteunblocked.info/", text: "Site Unblocked" },
   { href: "https://www.pdfdrive.com/", text: "PDF Drive" },
   { href: "https://www.sci-hub.pub/", text: "SciHub" },
