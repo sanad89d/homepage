@@ -60,6 +60,11 @@ const linksRows = [
   { href: "https://wetransfer.com/", text: "WeTransfer" },
   { href: "https://pairdrop.net/", text: "PairDrop" },
 
+  { href: "https://transfer.it/start", text: "Transfer" },
+  { href: "https://privacysafe.locker/", text: "Privacysafe" },
+  { href: "https://mazanoke.com/", text: "Mazanoke" },
+  { href: "https://www.openleaf.xyz/info", text: "Openleaf" },
+
   { href: "https://www.flipkart.com/", text: "Flipkart" },
   { href: "https://www.amazon.in/", text: "Amazon" },
   { href: "https://www.cashify.in/", text: "Cashify" },
@@ -191,13 +196,13 @@ const linksRows = [
   { href: "https://rlsbb.ru/", text: "ResleaseBB" },
 
   { href: "https://mkvcinemas.kiwi/", text: "MKVCinemas" },
-  { href: "https://downloadhub.golf/", text: "DownloadHub" },
-  { href: "https://desiremovies.ist/", text: "DesireMovies" },
-  { href: "https://1cinevood.onl/", text: "Cinevood" },
+  { href: "https://downloadhub.zone/", text: "DownloadHub" },
+  { href: "https://desiremovies.onl/", text: "DesireMovies" },
+  { href: "https://1cinevood.ch/", text: "Cinevood" },
 
-  { href: "https://ssrmovies.company/", text: "SSRMovies" },
-  { href: "https://www.1tamilblasters.boo/", text: "Tamil Blasters" },
-  { href: "https://www.1tamilmv.tube/", text: "TamilMV" },
+  { href: "https://ssrmovies.zone/", text: "SSRMovies" },
+  { href: "https://www.1tamilblasters.wine/", text: "Tamil Blasters" },
+  { href: "https://www.1tamilmv.se/", text: "TamilMV" },
   { href: "https://yts.mx/", text: "YTS" },
 
   { href: "https://www.imdb.com/", text: "IMDb" },
@@ -305,6 +310,11 @@ const linksRows = [
   { href: "https://copilot.microsoft.com/chats/", text: "Copilot" },
   { href: "https://grok.com/", text: "Grok" },
   
+  { href: "https://lumo.proton.me/", text: "Lumo" },
+  { href: "https://documator.cc/", text: "Documator" },
+  { href: "https://whybot-khaki.vercel.app/", text: "Whybot khaki" },
+  { href: "https://manus.im/", text: "Manus" },
+
   { href: "https://elevenlabs.io/", text: "ElevenLabs" },
   { href: "https://www.wellsaid.io/", text: "WellSaid" },
   { href: "https://riverside.fm/tools", text: "Riverside Tools" },
