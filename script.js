@@ -195,14 +195,14 @@ const linksRows = [
   { href: "https://www.yourserie.com/", text: "Yourserie" },
   { href: "https://rlsbb.ru/", text: "ResleaseBB" },
 
-  { href: "https://mkvcinemas.date/", text: "MKVCinemas" },
-  { href: "https://downloadhub.earth/", text: "DownloadHub" },
+  { href: "https://mkvcinemas.gift/", text: "MKVCinemas" },
+  { href: "https://downloadhub.cash/", text: "DownloadHub" },
   { href: "https://desiremovies.esq/", text: "DesireMovies" },
-  { href: "https://1cinevood.de/", text: "Cinevood" },
+  { href: "https://1cinevood.co/", text: "Cinevood" },
 
-  { href: "https://ssrmovies.family/", text: "SSRMovies" },
+  { href: "https://ssrmovies.vision/", text: "SSRMovies" },
   { href: "https://www.1tamilblasters.wine/", text: "Tamil Blasters" },
-  { href: "https://www.1tamilmv.blue/", text: "TamilMV" },
+  { href: "https://www.1tamilmv.dev/", text: "TamilMV" },
   { href: "https://yts.mx/", text: "YTS" },
 
   { href: "https://www.imdb.com/", text: "IMDb" },
