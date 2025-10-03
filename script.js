@@ -195,14 +195,14 @@ const linksRows = [
   { href: "https://www.yourserie.com/", text: "Yourserie" },
   { href: "https://rlsbb.ru/", text: "ResleaseBB" },
 
-  { href: "https://mkvcinemas.gift/", text: "MKVCinemas" },
-  { href: "https://downloadhub.cash/", text: "DownloadHub" },
-  { href: "https://desiremovies.nagoya/", text: "DesireMovies" },
-  { href: "https://1cinevood.co/", text: "Cinevood" },
+  { href: "https://mkvcinemas.haus/", text: "MKVCinemas" },
+  { href: "https://downloadhub.family/", text: "DownloadHub" },
+  { href: "https://desiremovies.review/", text: "DesireMovies" },
+  { href: "https://1cinevood.agency/", text: "Cinevood" },
 
-  { href: "https://ssrmovies.exchange/", text: "SSRMovies" },
-  { href: "https://www.1tamilblasters.digital/", text: "Tamil Blasters" },
-  { href: "https://www.1tamilmv.cab/", text: "TamilMV" },
+  { href: "https://ssrmovies.church/", text: "SSRMovies" },
+  { href: "https://www.1tamilblasters.hair/", text: "Tamil Blasters" },
+  { href: "https://www.1tamilmv.mba/", text: "TamilMV" },
   { href: "https://yts.mx/", text: "YTS" },
 
   { href: "https://www.imdb.com/", text: "IMDb" },
@@ -300,6 +300,21 @@ const linksRows = [
   { href: "https://ww4.yodesitv.org/", text: "YoDesiTV" },
   { href: "https://serialmaza.biz/", text: "SerialGhar" },
   
+  { href: "https://cryptpad.fr/", text: "Cryptpad" },
+  { href: "https://www.phot.ai/tools", text: "Phot" },
+  { href: "https://www.freeconvert.com/", text: "Freeconvert" },
+  { href: "https://www.meter.net/", text: "Meter" },
+
+  { href: "https://foxtorrent.ch/", text: "Foxtorrent" },
+  { href: "https://bitsearch.to/", text: "Bitsearch" },
+  { href: "https://solidtorrents.to/", text: "Solidtorrents" },
+  { href: "https://comparify.pro/", text: "Comparify" },
+  
+  { href: "https://www.removemd.com/", text: "Removemd" },
+  { href: "https://coveryourtracks.eff.org/", text: "Coveryourtracks" },
+  { href: "https://virgil.samidy.com/Game-search/", text: "Virgil" },
+  { href: "https://virgil.samidy.com/software-search/", text: "Virgil" },
+
   { href: "https://www.tldraw.com/", text: "tldraw" },
   { href: "https://excalidraw.com/", text: "Excalidraw" },
   { href: "https://app.diagrams.net/", text: "diagrams.net" },
