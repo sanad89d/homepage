@@ -75,7 +75,7 @@ const linksRows = [
   { href: "https://pdf.to/", text: "PDF To" },
   { href: "https://www.ilovepdf.com/", text: "I Love PDF" },
 
-  { href: "https://stirlingpdf.io/", text: "Stirlingpdf" },
+  { href: "https://stirling.com/app/", text: "Stirlingpdf" },
   { href: "https://www.i2pdf.com/", text: "I2pdf" },
   { href: "https://www.printfriendly.com/", text: "Printfriendly" },
   { href: "https://www.chatpdf.com/", text: "Chatpdf" },
@@ -196,13 +196,13 @@ const linksRows = [
   { href: "https://rlsbb.ru/", text: "ResleaseBB" },
 
   { href: "https://mkvcinemas.haus/", text: "MKVCinemas" },
-  { href: "https://downloadhub.family/", text: "DownloadHub" },
+  { href: "https://downloadhub.boston/", text: "DownloadHub" },
   { href: "https://desiremovies.review/", text: "DesireMovies" },
   { href: "https://1cinevood.agency/", text: "Cinevood" },
 
-  { href: "https://ssrmovies.church/", text: "SSRMovies" },
-  { href: "https://www.1tamilblasters.hair/", text: "Tamil Blasters" },
-  { href: "https://www.1tamilmv.mba/", text: "TamilMV" },
+  { href: "https://1ssrmovies.eu/", text: "SSRMovies" },
+  { href: "https://www.1tamilblasters.rest/", text: "Tamil Blasters" },
+  { href: "https://www.1tamilmv.date/", text: "TamilMV" },
   { href: "https://yts.mx/", text: "YTS" },
 
   { href: "https://www.imdb.com/", text: "IMDb" },
