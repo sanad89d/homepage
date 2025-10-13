@@ -244,6 +244,16 @@ const linksRows = [
   { href: "https://rufus.ie/en/", text: "Rufus" },
   { href: "https://www.ventoy.net/en/index.html", text: "Ventoy" },
   { href: "https://iventoy.com/en/index.html", text: "iVentoy" },
+  
+  { href: "https://meshvox.net/", text: "Meshvox" },
+  { href: "https://kite.kagi.com/", text: "Kite" },
+  { href: "https://github.com/abbodi1406/ConsumerESU/", text: "ConsumerESU" },
+  { href: "https://github.com/ChrisTitusTech/bypassnro/", text: "bypassnro" },
+
+  { href: "https://msdl.gravesoft.dev/", text: "Microsoft Soft.w Listing" },
+  { href: "https://codepen.io/abbodi1406/full/abXpNRE", text: "kvm_vl" },
+  { href: "https://gravesoft.dev/office_c2r_links", text: "OfficeC2R" },
+  { href: "https://forums.mydigitallife.net/threads/office-r-tool-project.84450/", text: "OfficeRTool" },
 
   { href: "https://msmgtoolkit.in/", text: "MSMG Toolkit" },
   { href: "https://www.ntlite.com/", text: "NTLite" },
