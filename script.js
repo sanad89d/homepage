@@ -227,7 +227,7 @@ const linksRows = [
 
   { href: "https://www.skidrowreloaded.com/", text: "Skidrow Reloaded" },
   { href: "https://pcgamestorrents.com/", text: "PCGames" },
-  { href: "https://steamunlocked.net/", text: "Steam Unlocked" },
+  { href: "https://steamunlocked.org/", text: "Steam Unlocked" },
   { href: "https://rezi.one/", text: "Rezi" },
 
   { href: "https://store.epicgames.com/en-US/", text: "Epic Games" },
