@@ -197,12 +197,12 @@ const linksRows = [
 
   { href: "https://mkvcinemas.haus/", text: "MKVCinemas" },
   { href: "https://downloadhub.boston/", text: "DownloadHub" },
-  { href: "https://desiremovies.review/", text: "DesireMovies" },
+  { href: "https://desiremovies.party/", text: "DesireMovies" },
   { href: "https://1cinevood.agency/", text: "Cinevood" },
 
-  { href: "https://1ssrmovies.eu/", text: "SSRMovies" },
-  { href: "https://www.1tamilblasters.rest/", text: "Tamil Blasters" },
-  { href: "https://www.1tamilmv.date/", text: "TamilMV" },
+  { href: "https://ssrmovies.bet/", text: "SSRMovies" },
+  { href: "https://www.1tamilblasters.world/", text: "Tamil Blasters" },
+  { href: "https://www.1tamilmv.rest/", text: "TamilMV" },
   { href: "https://yts.mx/", text: "YTS" },
 
   { href: "https://www.imdb.com/", text: "IMDb" },
@@ -490,6 +490,4 @@ document.addEventListener('DOMContentLoaded', () => {
     addFavicons();
   }
 });
-
-
     
