@@ -376,63 +376,120 @@ const linksRows = [
   { href: "https://github.com/memstechtips/UnattendedWinstall", text: "UnattendedWinstall" }
 ];
 
-    // Light/Dark Mode Toggle
-    document.addEventListener('DOMContentLoaded', () => {
-      const toggle = document.getElementById('theme-toggle');
+// Light/Dark Mode Toggle
+document.addEventListener('DOMContentLoaded', () => {
+  const toggle = document.getElementById('theme-toggle');
 
-      if (localStorage.getItem('theme') === 'dark') {
-        document.body.classList.add('dark-mode');
-        toggle.checked = true;
+  if (localStorage.getItem('theme') === 'dark') {
+    document.body.classList.add('dark-mode');
+    if (toggle) toggle.checked = true;
+  }
+
+  if (toggle) {
+    toggle.addEventListener('change', () => {
+      document.body.classList.toggle('dark-mode');
+      localStorage.setItem(
+        'theme',
+        document.body.classList.contains('dark-mode') ? 'dark' : 'light'
+      );
+    });
+  }
+
+  // -------------------------------
+  // Searchable Table Function
+  // -------------------------------
+  function createSearchableTable(containerId, data, filter = '') {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+
+    const search = filter.toLowerCase();
+    const filtered = data.filter(link =>
+      link.text.toLowerCase().includes(search) || link.href.toLowerCase().includes(search)
+    );
+
+    container.innerHTML = '';
+    const table = document.createElement('table');
+
+    for (let i = 0; i < filtered.length; i += 4) {
+      const tr = document.createElement('tr');
+      for (let j = i; j < i + 4 && j < filtered.length; j++) {
+        const td = document.createElement('td');
+        const a = document.createElement('a');
+        a.href = filtered[j].href;
+        a.textContent = filtered[j].text;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        td.appendChild(a);
+        tr.appendChild(td);
       }
+      table.appendChild(tr);
+    }
 
-      toggle.addEventListener('change', () => {
-        document.body.classList.toggle('dark-mode');
-        localStorage.setItem(
-          'theme',
-          document.body.classList.contains('dark-mode') ? 'dark' : 'light'
-        );
-      });
+    container.appendChild(table);
 
-      // Searchable table function
-      function createSearchableTable(containerId, data, filter = '') {
-        const container = document.getElementById(containerId);
-        if (!container) return;
+    // ✅ Add favicons after table creation
+    addFavicons(container);
+  }
 
-        const search = filter.toLowerCase();
-        const filtered = data.filter(link =>
-          link.text.toLowerCase().includes(search) || link.href.toLowerCase().includes(search)
-        );
+  // -------------------------------
+  // Favicon Adder Function
+  // -------------------------------
+  function addFavicons(root = document) {
+    const links = root.querySelectorAll('a[href]');
+    links.forEach(a => {
+      // ❌ Skip button-style links or those inside <button>
+      if (a.classList.contains('button') || a.closest('button')) return;
 
-        container.innerHTML = '';
-        const table = document.createElement('table');
+      // Prevent duplicate favicons
+      if (a.querySelector('img.favicon')) return;
 
-        for (let i = 0; i < filtered.length; i += 4) {
-          const tr = document.createElement('tr');
-          for (let j = i; j < i + 4 && j < filtered.length; j++) {
-            const td = document.createElement('td');
-            const a = document.createElement('a');
-            a.href = filtered[j].href;
-            a.textContent = filtered[j].text;
-            a.target = '_blank';
-            a.rel = 'noopener noreferrer';
-            td.appendChild(a);
-            tr.appendChild(td);
-          }
-          table.appendChild(tr);
-        }
+      try {
+        const url = new URL(a.href);
+        const domain = url.hostname;
+        const faviconUrl = `https://www.google.com/s2/favicons?sz=32&domain=${domain}`;
 
-        container.appendChild(table);
-      }
+        // Create favicon image
+        const img = document.createElement('img');
+        img.src = faviconUrl;
+        img.width = 16;
+        img.height = 16;
+        img.alt = '';
+        img.loading = 'lazy';
+        img.className = 'favicon';
+        img.style.marginRight = '6px';
+        img.style.borderRadius = '4px';
+        img.style.verticalAlign = 'middle';
 
-      // Init search
-      const containerId = 'searchable-table-container';
-      const input = document.getElementById('search-input');
+        // Wrap link text in a <span> so underline applies only to text
+        const textSpan = document.createElement('span');
+        textSpan.textContent = a.textContent.trim();
 
-      if (containerId && input) {
-        createSearchableTable(containerId, linksRows);
-
-        input.addEventListener('input', (e) => {
-          createSearchableTable(containerId, linksRows, e.target.value);
-        });
+        // Replace original text with icon + span
+        a.textContent = '';
+        a.append(img, textSpan);
+      } catch (e) {
+        console.warn('Skipping invalid link:', a.href);
       }
     });
+  }
+
+  // -------------------------------
+  // Init search
+  // -------------------------------
+  const containerId = 'searchable-table-container';
+  const input = document.getElementById('search-input');
+
+  if (containerId && input) {
+    createSearchableTable(containerId, linksRows);
+
+    input.addEventListener('input', (e) => {
+      createSearchableTable(containerId, linksRows, e.target.value);
+    });
+  } else {
+    // Also add favicons to any static links on load
+    addFavicons();
+  }
+});
+
+
+    

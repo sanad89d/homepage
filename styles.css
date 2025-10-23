@@ -241,11 +241,18 @@ th, td {
       border: 1px solid #aaa;
     }
 
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
+/* Remove underline from icons and keep text clean */
+a {
+  text-decoration: none;
+  color: white;
+}
 
-    a:hover {
-      text-decoration: underline;
-    }
+a:hover span {
+  text-decoration: underline;
+  color: #b96ad9;
+}
+
+a img.favicon {
+  vertical-align: middle;
+  border: none;
+}
