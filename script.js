@@ -198,11 +198,11 @@ const linksRows = [
   { href: "https://mkvcinemas.haus/", text: "MKVCinemas" },
   { href: "https://downloadhub.boston/", text: "DownloadHub" },
   { href: "https://desiremovies.party/", text: "DesireMovies" },
-  { href: "https://1cinevood.agency/", text: "Cinevood" },
+  { href: "https://1cinevood.boutique/", text: "Cinevood" },
 
   { href: "https://ssrmovies.bet/", text: "SSRMovies" },
   { href: "https://www.1tamilblasters.world/", text: "Tamil Blasters" },
-  { href: "https://www.1tamilmv.rest/", text: "TamilMV" },
+  { href: "https://www.1tamilmv.farm/", text: "TamilMV" },
   { href: "https://yts.mx/", text: "YTS" },
 
   { href: "https://www.imdb.com/", text: "IMDb" },
@@ -338,7 +338,7 @@ const linksRows = [
   { href: "https://lumo.proton.me/", text: "Lumo" },
   { href: "https://documator.cc/", text: "Documator" },
   { href: "https://whybot-khaki.vercel.app/", text: "Whybot khaki" },
-  { href: "https://manus.im/", text: "Manus" },
+  { href: "https://networkingtoolbox.net/", text: "NetworkToolBox" },
 
   { href: "https://elevenlabs.io/", text: "ElevenLabs" },
   { href: "https://www.wellsaid.io/", text: "WellSaid" },
