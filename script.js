@@ -195,15 +195,20 @@ const linksRows = [
   { href: "https://www.yourserie.com/", text: "Yourserie" },
   { href: "https://rlsbb.ru/", text: "ResleaseBB" },
 
-  { href: "https://mkvcinemas.haus/", text: "MKVCinemas" },
+  { href: "https://mkvcinemas.rodeo/", text: "MKVCinemas" },
   { href: "https://downloadhub.boston/", text: "DownloadHub" },
   { href: "https://desiremovies.party/", text: "DesireMovies" },
-  { href: "https://1cinevood.boutique/", text: "Cinevood" },
+  { href: "https://1cinevood.world/", text: "Cinevood" },
 
-  { href: "https://ssrmovies.bet/", text: "SSRMovies" },
-  { href: "https://www.1tamilblasters.world/", text: "Tamil Blasters" },
-  { href: "https://www.1tamilmv.farm/", text: "TamilMV" },
+  { href: "https://ssrmovies.deals/", text: "SSRMovies" },
+  { href: "https://www.1tamilblasters.host/", text: "Tamil Blasters" },
+  { href: "https://www.1tamilmv.land//", text: "TamilMV" },
   { href: "https://yts.mx/", text: "YTS" },
+
+  { href: "https://www.yodesi.online/", text: "YoDesi" },
+  { href: "https://parineeti.su/", text: "Parineeti" },
+  { href: "https://desiserials.se/", text: "DesiSerials" },
+  { href: "https://serialmaza.live/", text: "SerialGhar" },
 
   { href: "https://www.imdb.com/", text: "IMDb" },
   { href: "https://www.justwatch.com/in", text: "JustWatch" },
@@ -305,11 +310,6 @@ const linksRows = [
   { href: "https://viddit.red/", text: "Viddit" },
   { href: "https://rapidsave.com/", text: "Rapidsave" },
 
-  { href: "https://www.yodesi.online/", text: "YoDesi" },
-  { href: "https://ziddidil.com/", text: "Ziddidil" },
-  { href: "https://ww4.yodesitv.org/", text: "YoDesiTV" },
-  { href: "https://serialmaza.biz/", text: "SerialGhar" },
-  
   { href: "https://cryptpad.fr/", text: "Cryptpad" },
   { href: "https://www.phot.ai/tools", text: "Phot" },
   { href: "https://www.freeconvert.com/", text: "Freeconvert" },
