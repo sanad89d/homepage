@@ -332,7 +332,7 @@ const linksRows = [
 
   { href: "https://chatgpt.com/", text: "ChatGPT" },
   { href: "https://gemini.google.com/app", text: "Gemini" },
-  { href: "https://copilot.microsoft.com/chats/", text: "Copilot" },
+  { href: "https://copilot.microsoft.com/", text: "Copilot" },
   { href: "https://grok.com/", text: "Grok" },
   
   { href: "https://lumo.proton.me/", text: "Lumo" },
