@@ -195,15 +195,15 @@ const linksRows = [
   { href: "https://www.yourserie.com/", text: "Yourserie" },
   { href: "https://rlsbb.ru/", text: "ResleaseBB" },
 
-  { href: "https://mkvcinemas.rodeo/", text: "MKVCinemas" },
-  { href: "https://downloadhub.boston/", text: "DownloadHub" },
-  { href: "https://desiremovies.party/", text: "DesireMovies" },
-  { href: "https://1cinevood.world/", text: "Cinevood" },
+  { href: "https://extraflix.live/", text: "Extraflix" },
+  { href: "https://downloadhub.guide/", text: "DownloadHub" },
+  { href: "https://desiremovies.gripe/", text: "DesireMovies" },
+  { href: "https://1cinevood.biz/", text: "Cinevood" },
 
-  { href: "https://ssrmovies.deals/", text: "SSRMovies" },
-  { href: "https://www.1tamilblasters.host/", text: "Tamil Blasters" },
-  { href: "https://www.1tamilmv.land//", text: "TamilMV" },
-  { href: "https://yts.mx/", text: "YTS" },
+  { href: "https://ssrmovies.rentals/", text: "SSRMovies" },
+  { href: "https://1tamilblasters.bz/", text: "Tamil Blasters" },
+  { href: "https://www.1tamilmv.haus/", text: "TamilMV" },
+  { href: "https://yts.bz/", text: "YTS" },
 
   { href: "https://www.yodesi.online/", text: "YoDesi" },
   { href: "https://parineeti.su/", text: "Parineeti" },
