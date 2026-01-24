@@ -1,6 +1,6 @@
 
 const linksRows = [
-  { href: "http://www.gmail.com", text: "Gmail" },
+  { href: "https://accounts.google.com/signin/v2/identifier?service=mail", text: "Gmail" },
   { href: "https://outlook.live.com/owa/", text: "Outlook" },
   { href: "https://mail.yahoo.com/", text: "Yahoo" },
   { href: "https://mail.rediff.com/cgi-bin/login.cgi", text: "Reddit" },
