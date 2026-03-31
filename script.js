@@ -180,8 +180,8 @@ const linksRows = [
   { href: "https://convertall-web.bellz.org/", text: "Convertall" },
   { href: "https://copychar.cc/", text: "Copychar" },
 
-  { href: "https://pagalnew.net/", text: "Pagalnew" },
-  { href: "https://pagalworldmusic.com/", text: "Pagalworldmusic" },
+  { href: "https://pagalfree.com/", text: "PagalFree" },
+  { href: "https://pagalnew.com/", text: "PagalNew" },
   { href: "https://open.spotify.com/", text: "Spotify" },
   { href: "https://www.tunefind.com/", text: "Tunefind" },
 
@@ -195,14 +195,14 @@ const linksRows = [
   { href: "https://www.yourserie.com/", text: "Yourserie" },
   { href: "https://rlsbb.ru/", text: "ResleaseBB" },
 
-  { href: "https://extraflix.live/", text: "Extraflix" },
-  { href: "https://downloadhub.guide/", text: "DownloadHub" },
-  { href: "https://desiremovies.gripe/", text: "DesireMovies" },
-  { href: "https://1cinevood.biz/", text: "Cinevood" },
+  { href: "https://e1.extraflix.mobi/", text: "Extraflix" },
+  { href: "https://new.downloadhub.food/", text: "DownloadHub" },
+  { href: "https://1desiremovies.tel/", text: "DesireMovies" },
+  { href: "https://one.1cinevood.watch/", text: "Cinevood" },
 
-  { href: "https://ssrmovies.rentals/", text: "SSRMovies" },
-  { href: "https://1tamilblasters.bz/", text: "Tamil Blasters" },
-  { href: "https://www.1tamilmv.haus/", text: "TamilMV" },
+  { href: "https://ssrmovies.moe/", text: "SSRMovies" },
+  { href: "https://1tamilblasters.courses/", text: "Tamil Blasters" },
+  { href: "https://www.1tamilmv.immo/", text: "TamilMV" },
   { href: "https://yts.bz/", text: "YTS" },
 
   { href: "https://www.yodesi.online/", text: "YoDesi" },
@@ -373,7 +373,52 @@ const linksRows = [
   { href: "https://github.com/ios12checker/Windows-Maintenance-Tool/", text: "Windows Maintenance Tool" },
   { href: "https://github.com/ios12checker/MSS-Mac-Service-Script", text: "Mac Service Script" },
   { href: "https://github.com/ChrisTitusTech/linutil", text: "Linux Utility" },
-  { href: "https://github.com/memstechtips/UnattendedWinstall", text: "UnattendedWinstall" }
+  { href: "https://github.com/memstechtips/UnattendedWinstall", text: "UnattendedWinstall" },
+
+  { href: "https://getcurato.online/", text: "Getcurato" },
+  { href: "https://docstransfer.com/", text: "Docstransfer" },
+  { href: "https://certs.msfthub.wiki/", text: "Certs" },
+  { href: "https://www.classcentral.com/", text: "Classcentral" },
+
+  { href: "https://archive.ph/", text: "Archive" },
+  { href: "https://check.labs.greynoise.io/", text: "Check" },
+  { href: "https://photoshop.adobe.com/", text: "Photoshop" },
+  { href: "https://filedropshare.com/", text: "Filedropshare" },
+
+  { href: "https://rsstodolist.eu/", text: "Rsstodolist" },
+  { href: "https://www.perplexity.ai/discover", text: "Perplexity" },
+  { href: "https://distro.tv/", text: "Distro" },
+  { href: "https://numla.app/", text: "Numla" },
+
+  { href: "https://kaic.me/win-post-install/", text: "Kaic" },
+  { href: "https://ai.stellarinfo.com/", text: "Ai" },
+  { href: "https://openpsychometrics.org/", text: "Openpsychometrics" },
+  { href: "https://www.16personalities.com/", text: "16personalities" },
+
+  { href: "https://isitreallyfoss.com/", text: "Isitreallyfoss" },
+  { href: "https://securenotes.net/", text: "Securenotes" },
+  { href: "https://tuxmate.com/", text: "Tuxmate" },
+  { href: "https://pdfedit.best/", text: "Pdfedit" },
+
+  { href: "https://linkcleaner.app/", text: "Linkcleaner" },
+  { href: "https://changes.fmhy.bid/", text: "Changes" },
+  { href: "https://fmhy-tracker.pages.dev/", text: "Fmhy tracker" },
+  { href: "https://everythingmoe.com/", text: "Everythingmoe" },
+
+  { href: "https://chithi.dev/", text: "Chithi" },
+  { href: "https://web.localsend.org/", text: "Web" },
+  { href: "https://saavn-web-ui.vercel.app/", text: "Saavn web ui" },
+  { href: "https://www.pdfgear.com/online-tools/", text: "Pdfgear" },
+
+  { href: "https://www.expandurl.net/", text: "Expandurl" },
+  { href: "https://markkit.dev/", text: "Markkit" },
+  { href: "https://markdowntoword.io/", text: "Markdowntoword" },
+  { href: "https://8gwifi.org/tutorials/", text: "8gwifi" },
+
+  { href: "https://twiiit.com/", text: "Twiiit" },
+  { href: "https://github.com/zedeus/nitter/wiki/Instances", text: "Github" },
+  { href: "https://dos.zone/", text: "Dos" },
+  { href: "https://www.rootz.so/", text: "Rootz" }
 ];
 
 // Light/Dark Mode Toggle
