@@ -181,7 +181,7 @@ const linksRows = [
   { href: "https://copychar.cc/", text: "Copychar" },
 
   { href: "https://pagalfree.com/", text: "PagalFree" },
-  { href: "https://pagalnew.com/", text: "PagalNew" },
+  { href: "https://pagalall.com/", text: "PagalNew" },
   { href: "https://open.spotify.com/", text: "Spotify" },
   { href: "https://www.tunefind.com/", text: "Tunefind" },
 
@@ -195,14 +195,14 @@ const linksRows = [
   { href: "https://www.yourserie.com/", text: "Yourserie" },
   { href: "https://rlsbb.ru/", text: "ResleaseBB" },
 
-  { href: "https://e1.extraflix.mobi/", text: "Extraflix" },
-  { href: "https://new.downloadhub.food/", text: "DownloadHub" },
-  { href: "https://1desiremovies.tel/", text: "DesireMovies" },
-  { href: "https://one.1cinevood.watch/", text: "Cinevood" },
+  { href: "https://e5.extraflix.mobi/", text: "Extraflix" },
+  { href: "https://d6.downloadhub.food/", text: "DownloadHub" },
+  { href: "https://1desiremovies.fans/", text: "DesireMovies" },
+  { href: "https://1cinevood.live/", text: "Cinevood" },
 
-  { href: "https://ssrmovies.moe/", text: "SSRMovies" },
-  { href: "https://1tamilblasters.courses/", text: "Tamil Blasters" },
-  { href: "https://www.1tamilmv.immo/", text: "TamilMV" },
+  { href: "https://ssrmovies.luxe/", text: "SSRMovies" },
+  { href: "https://www.1tamilblasters.tattoo/", text: "Tamil Blasters" },
+  { href: "https://www.1tamilmv.promo/", text: "TamilMV" },
   { href: "https://yts.bz/", text: "YTS" },
 
   { href: "https://www.yodesi.online/", text: "YoDesi" },
