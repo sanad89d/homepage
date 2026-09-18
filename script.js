@@ -315,9 +315,9 @@ const linksRows = [
   { href: "https://www.freeconvert.com/", text: "Freeconvert" },
   { href: "https://www.meter.net/", text: "Meter" },
 
-  { href: "https://foxtorrent.ch/", text: "Foxtorrent" },
-  { href: "https://bitsearch.to/", text: "Bitsearch" },
-  { href: "https://solidtorrents.to/", text: "Solidtorrents" },
+  { href: "https://thepiratebay.org/index.html", text: "PirateBay" },
+  { href: "https://bitsearch.eu/", text: "Bitsearch" },
+  { href: "https://solidtorrents.eu/", text: "Solidtorrents" },
   { href: "https://comparify.pro/", text: "Comparify" },
   
   { href: "https://www.removemd.com/", text: "Removemd" },
