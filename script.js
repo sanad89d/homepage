@@ -195,20 +195,20 @@ const linksRows = [
   { href: "https://www.yourserie.com/", text: "Yourserie" },
   { href: "https://rlsbb.ru/", text: "ResleaseBB" },
 
-  { href: "https://e5.extraflix.mobi/", text: "Extraflix" },
-  { href: "https://d6.downloadhub.food/", text: "DownloadHub" },
-  { href: "https://1desiremovies.fans/", text: "DesireMovies" },
-  { href: "https://1cinevood.live/", text: "Cinevood" },
+  { href: "https://e7.extraflix.mobi/", text: "Extraflix" },
+  { href: "https://d10.downloadhub.food/", text: "DownloadHub" },
+  { href: "https://1desiremovies.cymru/", text: "DesireMovies" },
+  { href: "https://cinevood.bingo/", text: "Cinevood" },
 
-  { href: "https://ssrmovies.luxe/", text: "SSRMovies" },
-  { href: "https://www.1tamilblasters.tattoo/", text: "Tamil Blasters" },
-  { href: "https://www.1tamilmv.promo/", text: "TamilMV" },
+  { href: "https://ssrmovies.blue/", text: "SSRMovies" },
+  { href: "https://4khdhub.one/", text: "HDHub" },
+  { href: "https://www.1tamilmv.rocks/", text: "TamilMV" },
   { href: "https://yts.bz/", text: "YTS" },
 
   { href: "https://www.yodesi.online/", text: "YoDesi" },
   { href: "https://parineeti.su/", text: "Parineeti" },
-  { href: "https://desiserials.se/", text: "DesiSerials" },
-  { href: "https://serialmaza.live/", text: "SerialGhar" },
+  { href: "https://www.desi-serials.to/", text: "DesiSerials" },
+  { href: "https://watch.desitv.ru/", text: "DesiTV" },
 
   { href: "https://www.imdb.com/", text: "IMDb" },
   { href: "https://www.justwatch.com/in", text: "JustWatch" },
@@ -291,7 +291,7 @@ const linksRows = [
   { href: "https://ameliorated.io/", text: "Ameliorated" },
 
   { href: "https://dumpor.io/", text: "Dumpor" },
-  { href: "https://storiesig.info/en/", text: "StoriesIG" },
+  { href: "https://storiesig.info/en7jr/", text: "StoriesIG" },
   { href: "https://inflact.com/instagram-viewer/", text: "Inflact" },
   { href: "https://twstalker.com/", text: "twstalker" },
 
@@ -301,9 +301,9 @@ const linksRows = [
   { href: "https://pinterestvideodownloader.com/", text: "Pinterest Downloader" },
 
   { href: "https://fdownloader.net/en", text: "FB Video Downloader" },
-  { href: "https://spotdownloader.com/", text: "Spotify Downloader" },
-  { href: "https://spotidownloader.com/en", text: "Spotidownloader" },
-  { href: "https://spowload.com/en", text: "Spowload" },
+  { href: "https://spotidown.co/en16", text: "Spotify Downloader" },
+  { href: "https://spotidownloader.com/en19", text: "Spotidownloader" },
+  { href: "https://spowload.cc/en2", text: "Spowload" },
 
   { href: "https://www.reddit.com/answers/", text: "Reddit" },
   { href: "https://reddit-recap.vercel.app/", text: "Reddit recap" },
