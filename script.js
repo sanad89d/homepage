@@ -180,9 +180,9 @@ const linksRows = [
   { href: "https://convertall-web.bellz.org/", text: "Convertall" },
   { href: "https://copychar.cc/", text: "Copychar" },
 
-  { href: "https://pagalfree.com/", text: "PagalFree" },
+  { href: "https://songspk.com.se/", text: "songspk" },
   { href: "https://pagalall.com/", text: "PagalNew" },
-  { href: "https://open.spotify.com/", text: "Spotify" },
+  { href: "https://koshalworld.com/", text: "KoshalWorld" },
   { href: "https://www.tunefind.com/", text: "Tunefind" },
 
   { href: "https://apk4free.net/", text: "Apk4Free" },
@@ -195,20 +195,20 @@ const linksRows = [
   { href: "https://www.yourserie.com/", text: "Yourserie" },
   { href: "https://rlsbb.ru/", text: "ResleaseBB" },
 
-  { href: "https://e7.extraflix.mobi/", text: "Extraflix" },
-  { href: "https://d10.downloadhub.food/", text: "DownloadHub" },
-  { href: "https://1desiremovies.cymru/", text: "DesireMovies" },
-  { href: "https://cinevood.bingo/", text: "Cinevood" },
+  { href: "https://e9.extraflix.mobi/", text: "Extraflix" },
+  { href: "https://d2.downloadhub.tw/", text: "DownloadHub" },
+  { href: "https://1desiremovies.lat/", text: "DesireMovies" },
+  { href: "https://cinevood.net/", text: "Cinevood" },
 
-  { href: "https://ssrmovies.blue/", text: "SSRMovies" },
-  { href: "https://4khdhub.one/", text: "HDHub" },
-  { href: "https://www.1tamilmv.rocks/", text: "TamilMV" },
+  { href: "https://ssrmovies.theater/", text: "SSRMovies" },
+  { href: "https://4khdhub.one/", text: "4khdhub" },
+  { href: "https://www.1tamilmv.solar/", text: "TamilMV" },
   { href: "https://yts.bz/", text: "YTS" },
 
   { href: "https://www.yodesi.online/", text: "YoDesi" },
   { href: "https://parineeti.su/", text: "Parineeti" },
-  { href: "https://www.desi-serials.to/", text: "DesiSerials" },
-  { href: "https://watch.desitv.ru/", text: "DesiTV" },
+  { href: "https://desiserials.se/", text: "DesiSerials" },
+  { href: "https://serialmaza.live/", text: "SerialGhar" },
 
   { href: "https://www.imdb.com/", text: "IMDb" },
   { href: "https://www.justwatch.com/in", text: "JustWatch" },
@@ -291,7 +291,7 @@ const linksRows = [
   { href: "https://ameliorated.io/", text: "Ameliorated" },
 
   { href: "https://dumpor.io/", text: "Dumpor" },
-  { href: "https://storiesig.info/en7jr/", text: "StoriesIG" },
+  { href: "https://storiesig.info/en/", text: "StoriesIG" },
   { href: "https://inflact.com/instagram-viewer/", text: "Inflact" },
   { href: "https://twstalker.com/", text: "twstalker" },
 
@@ -301,9 +301,9 @@ const linksRows = [
   { href: "https://pinterestvideodownloader.com/", text: "Pinterest Downloader" },
 
   { href: "https://fdownloader.net/en", text: "FB Video Downloader" },
-  { href: "https://spotidown.co/en16", text: "Spotify Downloader" },
-  { href: "https://spotidownloader.com/en19", text: "Spotidownloader" },
-  { href: "https://spowload.cc/en2", text: "Spowload" },
+  { href: "https://spotidown.co/en", text: "Spotify Downloader" },
+  { href: "https://spotidownloader.com/en", text: "Spotidownloader" },
+  { href: "https://spowload.com/en", text: "Spowload" },
 
   { href: "https://www.reddit.com/answers/", text: "Reddit" },
   { href: "https://reddit-recap.vercel.app/", text: "Reddit recap" },
@@ -315,9 +315,9 @@ const linksRows = [
   { href: "https://www.freeconvert.com/", text: "Freeconvert" },
   { href: "https://www.meter.net/", text: "Meter" },
 
-  { href: "https://thepiratebay.org/index.html", text: "PirateBay" },
-  { href: "https://bitsearch.eu/", text: "Bitsearch" },
-  { href: "https://solidtorrents.eu/", text: "Solidtorrents" },
+  { href: "https://foxtorrent.ch/", text: "Foxtorrent" },
+  { href: "https://bitsearch.to/", text: "Bitsearch" },
+  { href: "https://solidtorrents.to/", text: "Solidtorrents" },
   { href: "https://comparify.pro/", text: "Comparify" },
   
   { href: "https://www.removemd.com/", text: "Removemd" },
@@ -347,7 +347,7 @@ const linksRows = [
   
   { href: "https://www.futuretools.io/", text: "FutureTools" },
   { href: "https://www.futurepedia.io/", text: "Futurepedia" },
-  { href: "https://mrfreetools.com/tools/", text: "MrFreeTools" },
+  { href: "https://toolspedia.io/", text: "Toolspedia" },
   { href: "https://huggingface.co/spaces", text: "Hugging Face Spaces" },
   
   { href: "https://www.heygen.com/", text: "HeyGen" },
@@ -420,6 +420,7 @@ const linksRows = [
   { href: "https://dos.zone/", text: "Dos" },
   { href: "https://www.rootz.so/", text: "Rootz" }
 ];
+
 
 // Light/Dark Mode Toggle
 document.addEventListener('DOMContentLoaded', () => {
