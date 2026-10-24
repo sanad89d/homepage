@@ -421,7 +421,6 @@ const linksRows = [
   { href: "https://www.rootz.so/", text: "Rootz" }
 ];
 
-
 // Light/Dark Mode Toggle
 document.addEventListener('DOMContentLoaded', () => {
   const toggle = document.getElementById('theme-toggle');
