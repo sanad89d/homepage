@@ -195,14 +195,14 @@ const linksRows = [
   { href: "https://www.yourserie.com/", text: "Yourserie" },
   { href: "https://rlsbb.ru/", text: "ResleaseBB" },
 
-  { href: "https://e9.extraflix.mobi/", text: "Extraflix" },
+  { href: "https://e10.extraflix.mobi/", text: "Extraflix" },
   { href: "https://d2.downloadhub.tw/", text: "DownloadHub" },
   { href: "https://1desiremovies.lat/", text: "DesireMovies" },
   { href: "https://cinevood.net/", text: "Cinevood" },
 
   { href: "https://ssrmovies.theater/", text: "SSRMovies" },
   { href: "https://4khdhub.one/", text: "4khdhub" },
-  { href: "https://www.1tamilmv.solar/", text: "TamilMV" },
+  { href: "https://www.1tamilmv.style/", text: "TamilMV" },
   { href: "https://yts.bz/", text: "YTS" },
 
   { href: "https://www.yodesi.online/", text: "YoDesi" },
