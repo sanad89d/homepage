@@ -275,7 +275,7 @@ const linksRows = [
   { href: "https://yopass.se/", text: "YoPass" },
   { href: "https://pwpush.com/", text: "PWPush" },
 
-  { href: "https://mullvad.net/en/help/dns-over-https-and-dns-over-tls", text: "Mullvad" },
+  { href: "https://controld.com/free-dns", text: "ControlD" },
   { href: "https://www.opendns.com/", text: "Opendns" },
   { href: "https://quad9.net/", text: "Quad9" },
   { href: "https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/agentless/dns/dns-over-https/", text: "Cloudflare" },
