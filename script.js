@@ -127,7 +127,7 @@ const linksRows = [
 
   { href: "https://endoflife.date/", text: "Endoflife" },
   { href: "https://tosdr.org/en", text: "Tosdr" },
-  { href: "https://libredirect.github.io/", text: "Libredirect" },
+  { href: "https://libredirect.manerakai.com/", text: "Libredirect" },
   { href: "https://haveibeenpwned.com/", text: "Haveibeenpwned" },
 
   { href: "https://languagetool.org/", text: "LanguageTool" },
@@ -148,7 +148,7 @@ const linksRows = [
   { href: "https://web-check.xyz/", text: "WebCheck" },
   { href: "https://www.scamadviser.com/", text: "Scamadviser" },
   { href: "https://www.scamvoid.net/", text: "Scamvoid" },
-  { href: "https://scambunkers.com/", text: "Scambunkers" },
+  { href: "https://gridinsoft.com/website-reputation-checker", text: "Gridinsoft" },
 
   { href: "https://dub.co/", text: "Dub" },
   { href: "https://t.ly/", text: "T.ly" },
@@ -186,7 +186,7 @@ const linksRows = [
   { href: "https://www.tunefind.com/", text: "Tunefind" },
 
   { href: "https://apk4free.net/", text: "Apk4Free" },
-  { href: "https://a2zapk.io/", text: "A2zapk" },
+  { href: "https://a2zapk.dev/", text: "A2zapk" },
   { href: "https://apkaward.com/", text: "Apkaward" },
   { href: "https://an1.com/tags/mods/", text: "An1" },
 
@@ -200,15 +200,15 @@ const linksRows = [
   { href: "https://1desiremovies.lat/", text: "DesireMovies" },
   { href: "https://cinevood.net/", text: "Cinevood" },
 
-  { href: "https://ssrmovies.theater/", text: "SSRMovies" },
+  { href: "https://ssrmovies.garden/", text: "SSRMovies" },
   { href: "https://4khdhub.one/", text: "4khdhub" },
   { href: "https://www.1tamilmv.style/", text: "TamilMV" },
   { href: "https://yts.bz/", text: "YTS" },
 
-  { href: "https://www.yodesi.online/", text: "YoDesi" },
+  { href: "https://www.desitv.to/", text: "DesiTV" },
   { href: "https://parineeti.su/", text: "Parineeti" },
-  { href: "https://desiserials.se/", text: "DesiSerials" },
-  { href: "https://serialmaza.live/", text: "SerialGhar" },
+  { href: "https://www.desi-serials.to/", text: "DesiSerials" },
+  { href: "https://yodesi-online.com/", text: "YoDesi" },
 
   { href: "https://www.imdb.com/", text: "IMDb" },
   { href: "https://www.justwatch.com/in", text: "JustWatch" },
@@ -221,9 +221,9 @@ const linksRows = [
   { href: "https://www.themoviedb.org/", text: "TMDb" },
 
   { href: "https://fmhy.pages.dev/", text: "fmhy" },
-  { href: "https://softarchive.is/windows/", text: "SoftArchive" },
-  { href: "https://ftuapps.dev/?1", text: "FTUApps" },
-  { href: "https://www.getintomac.net/", text: "GetIntoMac" },
+  { href: "http://fmhy.pages.dev/downloading#software-sites", text: "Windows" },
+  { href: "https://fmhy.pages.dev/linux-macos#linux-guides", text: "Linux" },
+  { href: "https://fmhy.pages.dev/linux-macos#software-sites-1", text: "Mac" },
 
   { href: "https://subdl.com/", text: "Subdl" },
   { href: "https://www.addic7ed.com/", text: "Addic7ed" },
@@ -316,8 +316,8 @@ const linksRows = [
   { href: "https://www.meter.net/", text: "Meter" },
 
   { href: "https://foxtorrent.ch/", text: "Foxtorrent" },
-  { href: "https://bitsearch.to/", text: "Bitsearch" },
-  { href: "https://solidtorrents.to/", text: "Solidtorrents" },
+  { href: "https://bitsearch.eu/", text: "Bitsearch" },
+  { href: "https://solidtorrents.eu/", text: "Solidtorrents" },
   { href: "https://comparify.pro/", text: "Comparify" },
   
   { href: "https://www.removemd.com/", text: "Removemd" },
