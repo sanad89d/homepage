@@ -82,7 +82,7 @@ const linksRows = [
 
   { href: "https://www.listennotes.com/", text: "Podcast" },
   { href: "https://web.whatsapp.com/", text: "WhatsApp Web" },
-  { href: "https://messages.google.com/web/authentication", text: "Messages" },
+  { href: "https://messages.google.com/web/welcome", text: "Messages" },
   { href: "https://meet.jit.si/", text: "Jitsi" },
 
   { href: "https://www.virustotal.com/gui/home/upload", text: "VirusTotal" },
