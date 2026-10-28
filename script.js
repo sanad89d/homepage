@@ -322,8 +322,8 @@ const linksRows = [
   
   { href: "https://www.removemd.com/", text: "Removemd" },
   { href: "https://coveryourtracks.eff.org/", text: "Coveryourtracks" },
-  { href: "https://virgil.samidy.com/Game-search/", text: "Virgil" },
-  { href: "https://virgil.samidy.com/software-search/", text: "Virgil" },
+  { href: "https://softarchive.is/windows/", text: "SoftArchive" },
+  { href: "https://virgil.samidy.com/", text: "Virgil" },
 
   { href: "https://www.tldraw.com/", text: "tldraw" },
   { href: "https://excalidraw.com/", text: "Excalidraw" },
