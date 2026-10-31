@@ -195,13 +195,13 @@ const linksRows = [
   { href: "https://www.yourserie.com/", text: "Yourserie" },
   { href: "https://rlsbb.ru/", text: "ResleaseBB" },
 
-  { href: "https://e10.extraflix.mobi/", text: "Extraflix" },
-  { href: "https://d2.downloadhub.tw/", text: "DownloadHub" },
+  { href: "https://e11.extraflix.mobi/", text: "Extraflix" },
+  { href: "https://d3.downloadhub.tw/", text: "DownloadHub" },
   { href: "https://1desiremovies.lat/", text: "DesireMovies" },
   { href: "https://cinevood.net/", text: "Cinevood" },
 
   { href: "https://ssrmovies.garden/", text: "SSRMovies" },
-  { href: "https://4khdhub.one/", text: "4khdhub" },
+  { href: "https://new10.hdhub4u.cl/", text: "HDHub4u" },
   { href: "https://www.1tamilmv.style/", text: "TamilMV" },
   { href: "https://yts.bz/", text: "YTS" },
 
@@ -255,7 +255,7 @@ const linksRows = [
   { href: "https://github.com/abbodi1406/ConsumerESU/", text: "ConsumerESU" },
   { href: "https://github.com/ChrisTitusTech/bypassnro/", text: "bypassnro" },
 
-  { href: "https://msdl.gravesoft.dev/", text: "Microsoft Soft.w Listing" },
+  { href: "https://msdl.gravesoft.dev/", text: "Ms. Soft.w Listing" },
   { href: "https://codepen.io/abbodi1406/full/abXpNRE", text: "kvm_vl" },
   { href: "https://gravesoft.dev/office_c2r_links", text: "OfficeC2R" },
   { href: "https://forums.mydigitallife.net/threads/office-r-tool-project.84450/", text: "OfficeRTool" },
